@@ -1,0 +1,91 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.block {
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 10px;
+}
+
+#area {
+    resize: none;
+}
+
+.quest {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.infoControl {
+    padding: 5px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: rgb(32, 140, 178);
+}
+
+.afterClock {
+    line-height: 16px;
+    margin: 0;
+}
+
+.afterClock::before {
+    content: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fclock-circular-outline.png?alt=media&token=12afe8dd-71a5-4b24-b475-76b7c757f1e6);
+    height: 20px;
+    width: 16px;
+}
+
+.size {
+    min-height: 15px;
+    line-height: 10px;
+    font-size: 10px;
+    padding: 0;
+}
+
+.marg {
+    margin-right: 5px;
+}
+
+.right {
+    float: right;
+    margin: 5px 0;
+}
+
+.messag {
+    height: 98px;
+    padding: 20px 5px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: lightblue;
+}
+
+.paginator {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    h2 {
+        font-size: 22px;
+    }
+}

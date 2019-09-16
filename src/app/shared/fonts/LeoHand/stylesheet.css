@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'LeoHand';
+    src: url('LeoHand-Light.eot');
+    src: local('LeoHand-Light'),
+        url('LeoHand-Light.eot?#iefix') format('embedded-opentype'),
+        url('LeoHand-Light.woff2') format('woff2'),
+        url('LeoHand-Light.woff') format('woff'),
+        url('LeoHand-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeoHand';
+    src: url('LeoHand.eot');
+    src: local('LeoHand'),
+        url('LeoHand.eot?#iefix') format('embedded-opentype'),
+        url('LeoHand.woff2') format('woff2'),
+        url('LeoHand.woff') format('woff'),
+        url('LeoHand.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

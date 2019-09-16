@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Heebo Bold';
+    src: url(../../shared/fonts/heebo/Heebo-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Heebo Regular';
+    src: url(../../shared/fonts/heebo/Heebo-Regular.ttf);
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+p {
+    margin: 20px auto;
+}
+
+h3 {
+    font-family: 'Heebo Bold';
+    margin-top: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Heebo Regular';
+}
+
+footer h3 {
+    font-family: 'Heebo Bold';
+    text-align: left;
+}
+
+.wrap {
+    width: 50%;
+    margin: 30px auto;
+}
+
+input.ng-touched.ng-invalid {
+    border-color: #dc3545;
+}
+
+div.validation-error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.header .transition {
+    transition: all 0.4s ease-in-out;
+}
+
+.header .carousel .content {
+    display: flex;
+}
+
+.header .carousel .content .item {
+    width: 100%;
+    display: block;
+    opacity: 0;
+}
+
+.header .carousel .content .item.fade_animation {
+    transition: opacity 0.295s linear 0.4s;
+}
+
+.header .carousel .content .item.visible {
+    opacity: 1;
+}
+
+.header .carousel .content .item .img {
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-bottom: 50%;
+}
+
+.header .carousel .ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    border: 2px solid;
+    opacity: 0.5;
+}
+
+.header .carousel .ball.visible {
+    opacity: 1;
+}
+
+.header .carousel .progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #ff5252;
+}
+
+.header .carousel .click-area {
+    width: 50px;
+    text-align: center;
+}
+
+.header .carousel .click-area i {
+    font-size: 3em;
+}
+
+.foot {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.foot .transition {
+    transition: all 2s ease-in-out;
+}
+
+.foot .center {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.foot section {
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot .carousel {
+    color: white;
+}
+
+.foot .carousel .content {
+    display: flex;
+}
+
+.foot .carousel .text-accent {
+    width: 80%;
+}
+
+.foot article {
+    width: 7%!important;
+}
+
+.foot .carousel .content .item {
+    width: 100%;
+    display: block;
+    opacity: 0;
+}
+
+.foot .carousel .content .item.visible_important {
+    opacity: 1;
+}
+
+.foot .carousel .content .item .img {
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-bottom: 50%;
+}
+
+.foot .imga {
+    display: block;
+    width: 100%;
+}
+
+.foot .carousel .click-area i {
+    font-size: 3em;
+    color: black;
+}
+
+.foot div .left {
+    margin: 0 0 0 -16px;
+}
+
+.foot div .right {
+    margin: 0 -16px 0 0;
+}
+
+.decor {
+    color: black;
+}
+
+.decor :hover {
+    text-decoration: underline;
+    text-decoration-color: #888;
+}
+
+.categ {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    .wrap {
+        width: 63%;
+    }
+    p {
+        margin: 20px auto;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    h3 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .foot {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    .foot .center {
+        width: 95%;
+        margin: 50px auto;
+    }
+    .foot section {
+        margin: 0 5px;
+    }
+    footer h3 {
+        text-align: left;
+    }
+    .foot .imga {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .wrap {
+        width: 65%;
+    }
+    .foot {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    footer h3 {
+        text-align: left;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .foot {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    .foot .center {
+        width: 100%;
+        margin: 50px auto;
+    }
+    .foot section {
+        margin: 0 5px;
+    }
+    .foot article {
+        width: 7%!important;
+    }
+    .foot .imga {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrap {
+        width: 70%;
+    }
+    p {
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    footer h3 {
+        text-align: left;
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .foot {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+    .foot .center {
+        width: 100%;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .foot {
+        display: none;
+    }
+    .wrap {
+        width: 85%;
+    }
+    p {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+}

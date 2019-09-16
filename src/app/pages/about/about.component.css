@@ -1,0 +1,211 @@
+.about {
+    padding: 60px 15px 50px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.casual, .classic, .video {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.casual-main-foto, .classic-main-foto, .video-href {
+    width: 100%;
+    height: 300px;
+    border: 4px double lightgray;
+}
+
+.casual-last-foto, .classic-last-foto {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.casual-first-foto, .classic-first-foto {
+    width: 55%;
+    height: 190px;
+    border: 4px double lightgray;
+}
+
+.casual-second-foto, .classic-second-foto {
+    width: 35%;
+    height: 190px;
+    border: 4px double lightgray;
+}
+
+.casual-main-foto {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcasual-main.png?alt=media&token=e90fd410-8fa7-4068-ad76-c62b609adee0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.casual-first-foto {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcasual-first.png?alt=media&token=ab10271b-12fd-42d4-b5d0-1cb21e2280c1);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.casual-second-foto {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcasual-second.png?alt=media&token=74c427f3-3f15-471a-b7ad-b51390e687c9);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.classic-main-foto {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fclassic-main.png?alt=media&token=0b6782d6-b713-4556-88fd-92d2fab08030);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.classic-first-foto {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fclassic-first.png?alt=media&token=aab497a5-2a63-4e32-b466-f0b28d06e2df);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.classic-second-foto {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fclassic-second.png?alt=media&token=a75664b4-fe41-4874-820f-d2ab2da3e78f);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    .about {
+        padding: 50px 15px 50px;
+    }
+    .casual, .classic, .video {
+        width: 60%;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .about {
+        padding: 50px 15px 50px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .casual, .classic, .video {
+        width: 70%;
+        margin: 30px auto;
+    }
+    .casual-main-foto, .classic-main-foto, .video-href {
+        width: 100%;
+        height: 270px;
+        border: 4px double lightgray;
+    }
+    .video-href {
+        height: 282px;
+    }
+    iframe {
+        height: 274px!important;
+    }
+    .casual-last-foto, .classic-last-foto {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0 0;
+    }
+    .casual-first-foto, .classic-first-foto {
+        width: 55%;
+        height: 170px;
+        border: 4px double lightgray;
+    }
+    .casual-second-foto, .classic-second-foto {
+        width: 35%;
+        height: 170px;
+        border: 4px double lightgray;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .about {
+        padding: 50px 15px 50px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .casual, .classic, .video {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .casual-main-foto, .classic-main-foto, .video-href {
+        width: 100%;
+        height: 230px;
+        border: 4px double lightgray;
+    }
+    .video {
+        width: 80%;
+    }
+    .video-href {
+        width: 100%;
+        height: 228px;
+    }
+    iframe {
+        height: 220px!important;
+    }
+    .casual-last-foto, .classic-last-foto {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0 0;
+    }
+    .casual-first-foto, .classic-first-foto {
+        width: 55%;
+        height: 140px;
+        border: 4px double lightgray;
+    }
+    .casual-second-foto, .classic-second-foto {
+        width: 35%;
+        height: 140px;
+        border: 4px double lightgray;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .about {
+        padding: 50px 15px 50px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .casual, .classic, .video {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .casual-main-foto, .classic-main-foto, .video-href {
+        width: 100%;
+        height: 180px;
+        border: 4px double lightgray;
+    }
+    .video {
+        width: 95%;
+    }
+    .video-href {
+        width: 100%;
+        height: 228px;
+    }
+    iframe {
+        height: 220px!important;
+    }
+    .casual-last-foto, .classic-last-foto {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 30px 0 0;
+    }
+    .casual-first-foto, .classic-first-foto {
+        width: 100%;
+        height: 180px;
+        border: 4px double lightgray;
+    }
+    .casual-second-foto, .classic-second-foto {
+        width: 100%;
+        height: 180px;
+        margin: 30px 0;
+        border: 4px double lightgray;
+    }
+}

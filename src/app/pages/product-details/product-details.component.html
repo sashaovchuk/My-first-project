@@ -1,0 +1,71 @@
+<div class="container-fluid">
+    <div class="wrapper">
+        <div class="head">
+            <div class="block1">
+                <div class="space-image">
+                    <img [src]="product?.image" class="main-img" alt="">
+                </div>
+            </div>
+            <div class="block2">
+                <div class="about-product">
+                    <div class="about-header">
+                        <h2>{{product?.brand.name}} {{product?.model}}</h2>
+                    </div>
+                    <div class="about-body">
+                        <div class="categ" [routerLink]="['/categories/sub-categories']"
+                            fragment="{{product?.category.name}}">
+                            <p>{{product?.category.name}}</p>
+                        </div>
+                        <p class="about-desc"><b>Про продукт: </b></p>
+                        <ul>
+                            <li class="desc">Розмір: {{product?.size}}</li>
+                            <li class="desc">Матеріал: {{product?.material}}</li>
+                            <li class="desc">Бренд: {{product?.brand.name}}</li>
+                            <li class="desc">Модель {{product?.model}}. {{product?.description}}</li>
+                        </ul>
+                        <h4 class="price">Ціна: {{product?.price | currencys}}</h4>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="button-groups">
+                        <button class="btn btn-light" (click)="minus()">-</button>
+                        <button class="btn btn-light wid">{{count}}</button>
+                        <button class="btn btn-light" (click)="plass()">+</button>
+                    </div>
+                    <div class="add">
+                        <button class="btn btn-light marg" (click)="isAddToOrderPage()">Додати до корзини</button>
+                    </div>
+                </div>
+                <div class="back">
+                    <button *ngIf="currentCategory==1" [routerLink]="['/categories/sub-categories']"
+                        class="btn btn-light" fragment="{{product?.category.name}}">Назад</button>
+                    <button *ngIf="currentCategory==2" [routerLink]="['/brands/subbrands']" class="btn btn-light"
+                        fragment="{{product?.brand.name}}">Назад</button>
+                    <button *ngIf="currentCategory==3" [routerLink]="['/home']" class="btn btn-light">Назад</button>
+                </div>
+            </div>
+        </div>
+        <h3>Подібні товари:</h3>
+        <div class="distance">
+            <div class="center">
+                <div class="list">
+                    <div class="block" *ngFor="let avatar of adminProducts; let i = index">
+                        <div class="img">
+                            <img [src]="avatar.image" class="imga" [routerLink]="[ '/products', avatar.id ]"
+                                fragment="{{currentCategory}}" alt="" (click)="getURL(avatar.id)">
+                        </div>
+                        <div class="about-subcat">
+                            <h4 class="categg" [routerLink]="[ '/products', avatar.id ]" fragment="{{currentCategory}}"
+                                (click)="getURL(avatar.id)">
+                                {{avatar.brand.name}}
+                                {{avatar.model}}</h4>
+                            <p class="categ" [routerLink]="['/categories/sub-categories']"
+                                fragment="{{avatar.category.name}}">{{avatar.category.name}}</p>
+                            <h5>{{avatar.price | currencys}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

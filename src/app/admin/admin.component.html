@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="wrapper">
+        <div class="row">
+            <div class="block1">
+                <div class="menu">
+                    <li class="menu-item">
+                        <a class="menu-link" routerLinkActive="myActive" routerLink="admin-brands">Brands</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" routerLinkActive="myActive" routerLink="admin-category">Category</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" routerLinkActive="myActive" routerLink="admin-products">Products</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" routerLinkActive="myActive" routerLink="admin-orders">Order</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" routerLinkActive="myActive" routerLink="admin-subscribers">Subscribers</a>
+                    </li>
+                </div>
+            </div>
+            <div class="block2">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

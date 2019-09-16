@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Bombshell Pro';
+    src: url('BombshellPro.eot');
+    src: local('Bombshell Pro'), local('BombshellPro'),
+        url('BombshellPro.eot?#iefix') format('embedded-opentype'),
+        url('BombshellPro.woff') format('woff'),
+        url('BombshellPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

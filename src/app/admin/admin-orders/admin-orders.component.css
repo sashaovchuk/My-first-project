@@ -1,0 +1,36 @@
+.paginator {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.modal-body .paginator {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+form .btn-secondary {
+    margin-top: 30px;
+}
+
+.table {
+    margin: 0 0 30px 0;
+}
+
+.modal-body .table {
+    margin: 0;
+}
+
+.modal-body .paginator {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+th, td {
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {}

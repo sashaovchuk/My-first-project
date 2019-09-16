@@ -1,0 +1,2524 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 2,
+        "name": "7 for all mankind",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjbwns6hhcyh?alt=media&token=75a6c3ae-8273-4d68-82f9-9993d2f1e80a"
+      },
+      "model": "Slimmy chino",
+      "size": "32",
+      "material": "88% хлопок, 10% поліестер, 2% еластан",
+      "description": "Дорога лінія бренду - \"Luxe Perfomance\". Звужений крій. Виконано з м'якого, щільного і приємного на дотик бавовни преміум-класу. Фірмова металева фурнітура з найменуванням бренду. Нашивка з логотипом бренду на задній кишені. Знаменитий американський бренд, що спеціалізується в основному на джинсах і брюках.",
+      "price": 105,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Faw6fyv6qd2t?alt=media&token=9c54e6ae-e236-42e4-b14f-3816a94b082d"
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 28,
+        "name": "All Saints",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fp2ti5ky78j?alt=media&token=ab6d7dae-4654-4284-9128-0360719e1a5c"
+      },
+      "model": "PIPE CHINO",
+      "size": "32",
+      "material": "97% хлопок, 3% еластан",
+      "description": "Звужений крій. Виконано з м'якого, щільного і приємного на дотик бавовни \"твілл\". Нашивка з найменуванням бренду над задньою кишенею. Цікава деталь - маленький кишеньку для годинника на незвичному місці. Красива підкладка і обробка пояса. Гарний відтінок - \"запилений бордовий\"",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fesrteggdzbu?alt=media&token=2d1a7a40-7473-4aee-ba86-88b9136b292c"
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 1,
+        "name": "Armani",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0ixod9fma43l?alt=media&token=53c8770f-0e22-4a63-b902-88072d8aaffe"
+      },
+      "model": "0CP70S 0BS00",
+      "size": "56",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Щільний і якісне хлопок \"твілл\". Італійські блискавки \"Raccagni\" з гравіюванням логотипу бренду на \"собачку\". Красива підкладка і обробка пояса. Фірмова металева фурнітура з найменуванням бренду. Базова забарвлення, підійде до великої кількості образів",
+      "price": 140,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fflwzj3owo2l?alt=media&token=8ca20b4a-f65e-4194-8a8d-a9fcea699c55"
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 27,
+        "name": "Ben Sherman",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fidg6i3lys9?alt=media&token=6338d5cf-9a80-4759-9397-2544e0d47d26"
+      },
+      "model": "MG13014",
+      "size": "M",
+      "material": "97% хлопок, 3% еластан",
+      "description": "Звужений крій. Стильна клітина в англійському стилі. Виконано з м'якого, щільного і приємного на дотик бавовни. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Ґудзики з гравіюванням найменування бренду. Нашивка з найменуванням бренду над задньою кишенею. Прихований кишеню під поясом, для зберігання секретів. Стильно оформлений внутрішній шов спеціально, щоб носити брюки з поворотами",
+      "price": 45,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F27e7ap257yn?alt=media&token=c6e2a6a1-1534-4861-9c72-91d3e9906817"
+    },
+    {
+      "id": 6,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 15,
+        "name": "Brax",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2twmww7okfk?alt=media&token=5f7a4fd9-a175-45ca-808b-f6c567eea9d1"
+      },
+      "model": " ",
+      "size": "XXL+",
+      "material": "98% хлопок, 2% эластан",
+      "description": "Вельвет - тренд зими 2018. Річ з вельвету в вашому гардеробі - показник, що ви \"тримайте ніс за вітром\". Дрібний рубчик. Оксамитова і приємна на дотик тканина. Бавовна \"Піма\" - елітна особливо-м'яка різновид довговолокнистої бавовни родом з Перу. Ґудзики з натурального матеріалу - пальма \"корозо\". Нашивка з найменуванням бренду на задній кишені. Чудова якість матеріалу, крою та виконання!",
+      "price": 46,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3qmec2bt7bf?alt=media&token=ef853119-54b1-40fe-b93d-b169e3edcfbb"
+    },
+    {
+      "id": 7,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 10,
+        "name": "Brioni",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fx61axoywf5a?alt=media&token=b0dd9565-c63a-452b-9a65-8b6080dbae0f"
+      },
+      "model": "Made-to-Measure",
+      "size": "50-52",
+      "material": "100% шерсть",
+      "description": "Класична, базова модель. Звужений крій. Цікавий крій кишень. Ґудзики з натурального матеріалу - пальма \"корозо\". Складна форма пояса типу \"комфорт\" говорить про клас вироби. Пояс типу \"комфорт\" максимально повторює фігуру, ідеально сідає по ній, що не сковує рухи. Brioni - синонім кращої в світі класичного чоловічого одягу. Виконані з ексклюзивних, кращих тканин вручну кращими в світі майстрами. Це Роллс-Ройс в світі одягу. У них ви відчуєте що таке справжній максимальний комфорт!",
+      "price": 135,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fhj5wfj0k2sc?alt=media&token=8ccf99a0-7866-4046-a0b3-4e53f47529d3"
+    },
+    {
+      "id": 8,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 54,
+        "name": "Closed",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcgqw75tpmsv?alt=media&token=991846d2-bd2f-4dca-bd80-8a0281164594"
+      },
+      "model": "Clifton Slim",
+      "size": "31",
+      "material": "100% хлопок",
+      "description": "Звужений крій. Виконано з щільного бавовни \"твілл\". Фірмова нашивка на ширінки з найменуванням бренду. Хрестик над задньою кишенею - підпис бренду. Ґудзики з натурального, дорогого, благородного роги. Красива підкладка і обробка пояса. Чудова якість матеріалу, крою та виконання!",
+      "price": 51,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F1ea1dxtobph?alt=media&token=3d11ed8e-2e81-44d3-bc4a-79223f9d7bb1"
+    },
+    {
+      "id": 9,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 41,
+        "name": "Corneliani",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fndxajlr7pwc?alt=media&token=37501d3d-6db6-4801-98d8-502137d2a4ac"
+      },
+      "model": "Brio-0",
+      "size": "54",
+      "material": " 98% хлопок, 2% эластан",
+      "description": "Прямий крій. Вельвет - тренд зими 2018. Річ з вельвету в вашому гардеробі - показник, що ви \"тримайте ніс за вітром\". Дрібний рубчик. Оксамитова і приємна на дотик тканина. Складна форма пояса типу \"комфорт\" говорить про клас вироби. Пояс типу \"комфорт\" максимально повторює фігуру, ідеально сідає по ній, що не сковує рухи. Базова забарвлення, підійде до великої кількості образів. Зроблені в Італії. Чудова якість матеріалу, крою та виконання!",
+      "price": 65,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fiiygc50e7wc?alt=media&token=3eb7e3ed-7f4a-4018-a41b-db45606aabe5"
+    },
+    {
+      "id": 10,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 38,
+        "name": "Drykorn",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fj1wzsarsd8g?alt=media&token=6adbc779-04c9-4a28-9ee5-da20b78a5b03"
+      },
+      "model": "29465",
+      "size": "54",
+      "material": "96% хлопок, 4% eластан",
+      "description": "У міру звужений крій. Злегка занижена посадка. Легкий хлопок. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Красива підкладка і обробка пояса. Бренд славиться своїми хорошими лекалами брюк",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fe31smi1w7kl?alt=media&token=081f2cc4-085c-4cdf-98ad-c64c12c62ec6"
+    },
+    {
+      "id": 11,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 16,
+        "name": "Edwin",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fvmjvflmlarl?alt=media&token=eea41036-c220-442b-9d25-5b6853095677"
+      },
+      "model": "PLEATED TROUSER",
+      "size": "54-56",
+      "material": "100% хлопок",
+      "description": "У міру звужений крій. Фірмова металева фурнітура з найменуванням бренду. Виконано з м'якого, щільного і приємного на дотик бавовни. Нашивка з логотипом бренду на задній кишені. Красива підкладка і обробка пояса. Чудова якість матеріалу, крою та виконання!\n",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fhhxv5bcbkyv?alt=media&token=cba8cbc4-f2f0-4c60-ae82-9382f9340962"
+    },
+    {
+      "id": 12,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 12,
+        "name": "Ermenegildo Zegna",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa25hfqvmd6e?alt=media&token=2ffed28f-5346-44a5-b08d-4357ff12cc99"
+      },
+      "model": "Vu-5",
+      "size": "52",
+      "material": "100% шерсть",
+      "description": "Прямий крій. М'яка і шовковиста фланалевая вовняна тканина італійського виробництва. Ґудзики з натурального, дорогого, благородного роги. Еталонне виконання, безліч ручних операцій. Зроблені в Швейцарії!",
+      "price": 140,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fj7d0gj9546h?alt=media&token=3c5b88f1-78e5-4897-a594-e1fc54cbbdf9"
+    },
+    {
+      "id": 13,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 36,
+        "name": "Daniel Hechter",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv6u45g3cza?alt=media&token=a014260a-7df7-4256-bf22-58a0b2b2a089"
+      },
+      "model": "Reh-56",
+      "size": "54",
+      "material": "100% шерсть",
+      "description": "Найдорожча і престижна колекція бренду Hackett Mayfair. Звужений крій. Шовковиста і і приємна до тіла вовняна тканина італійського виробництва. Красива підкладка і обробка пояса. Ґудзики з гравіюванням найменування бренду. Еталонне виконання!",
+      "price": 92,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3ejnoe8ms68?alt=media&token=7d873806-17ea-43a2-b1d2-335993add326"
+    },
+    {
+      "id": 14,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 13,
+        "name": "Gardeur",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fow77kx46kgo?alt=media&token=a08a888b-1240-4196-9ce4-6a97d6bfec65"
+      },
+      "model": "NEVIO",
+      "size": "XXL+",
+      "material": " 97% хлопок, 3% eластан",
+      "description": "У міру звужений крій. Виконано з м'якого, щільного і приємного на дотик бавовни. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Декоративна строчка товстими нитками. Фірмова металева фурнітура з найменуванням бренду. Базова забарвлення, підійде до великої кількості образів",
+      "price": 48,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fr9969iwvutb?alt=media&token=d0bf2541-a2eb-4a31-9f56-5c37f9a1ac34"
+    },
+    {
+      "id": 15,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 18,
+        "name": "Hugo Boss",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+      },
+      "model": "CHUCK",
+      "size": "46",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Виконано з м'якого, щільного і приємного на дотик бавовни. Ґудзики з гравіюванням найменування бренду. Силіконова нашивка з логотипом. Красива підкладка і обробка пояса. Комфортна і точна посадка створюється за рахунок вивірених протягом майже ста років роботи компанії лекал. Базова забарвлення, підійде до великої кількості образів",
+      "price": 44,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffu9b7wnh63m?alt=media&token=47b8bed6-01c7-47c1-bf83-f0f333219b08"
+    },
+    {
+      "id": 16,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 33,
+        "name": "Joop",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fdye5e8wxk99?alt=media&token=4e56c008-63e6-4f69-91b2-a33d1b90f8b1"
+      },
+      "model": "PIANA",
+      "size": "48",
+      "material": "100% шерсть",
+      "description": "У міру звужений крій. Фланелева вовняна тканина, приємна на дотик. Ґудзики з гравіюванням найменування бренду. Ґудзики з натурального, дорогого, благородного роги. Красива підкладка і обробка пояса. Базова забарвлення, підійде до великої кількості образів",
+      "price": 48,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffbgvgncdq7u?alt=media&token=acca1ae5-c9b4-4997-ba4a-f5d0a39953f9"
+    },
+    {
+      "id": 17,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 8,
+        "name": "Ralph Lauren",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fh00oe80lly?alt=media&token=c794ef50-6792-47ef-b152-cda78f0cf2f3"
+      },
+      "model": "NOM-87",
+      "size": "XXL+",
+      "material": "100% шерсть",
+      "description": "\nПерша лінія виготовляється тільки в Італії - Black line! М'яка, приємна до тіла фланелева шерсть. Ґудзики з натурального, дорогого, благородного роги. Еталонне виконання",
+      "price": 86,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fmqpfq4uk7gn?alt=media&token=21702723-d32c-4ba8-943a-4d378e0224bb"
+    },
+    {
+      "id": 18,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 42,
+        "name": "J.Lindeberg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F4p0mi0w8we?alt=media&token=4fd5b6e7-90b9-4144-bfd3-d353e423292b"
+      },
+      "model": "Chaze Flannel",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Звужений крій. Щільний і м'який хлопок \"твілл\". Ґудзики з гравіюванням найменування бренду. Прихований кишеню під поясом, для зберігання секретів. Красива підкладка і обробка пояса. Базова забарвлення, підійде до великої кількості образів",
+      "price": 57,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0d5w9cffbyjo?alt=media&token=2bbb05f0-4691-4bec-830d-d21548cfe009"
+    },
+    {
+      "id": 19,
+      "category": {
+        "id": 2,
+        "name": "Аксесуари",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgpe7l454gc?alt=media&token=992821b7-0f62-44ef-bb49-9e6584fc6db5"
+      },
+      "brand": {
+        "id": 34,
+        "name": "Luigi Borrelli",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frqf1356i8mq?alt=media&token=d857d939-61f6-4c2a-952b-ec538169d336"
+      },
+      "model": "-",
+      "size": "Універсальний",
+      "material": "100% шовк",
+      "description": "7-складений краватку - ще важча, краще тримає форму, надзвичайно складний і доріг у виготовленні. Кращі в світі майстра з Неаполя роблять зовсім небагато таких речей, повністю вручну з кращих матеріалів. Кращий шовк. Базова забарвлення, підійде до великої кількості образів. Зроблено в Італії.",
+      "price": 55,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0xmv29wm8dv?alt=media&token=2668fb65-51c8-4ec8-a36c-1fbf4b43a79d"
+    },
+    {
+      "id": 20,
+      "category": {
+        "id": 2,
+        "name": "Аксесуари",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgpe7l454gc?alt=media&token=992821b7-0f62-44ef-bb49-9e6584fc6db5"
+      },
+      "brand": {
+        "id": 11,
+        "name": "Gucci",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frlbb3n4p5rb?alt=media&token=6af1e0a9-d904-47e1-b801-284aa7c3f393"
+      },
+      "model": "-",
+      "size": "Універсальний",
+      "material": "100% шовк",
+      "description": "Відомий принт у вигляді перших букв бренду. Кращий, найтонший шовк власного виробництва Gucci. Зроблено вручну в Італії",
+      "price": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F6yee4bftemq?alt=media&token=fe7ac64e-911b-423b-bed3-d8f767a07fee"
+    },
+    {
+      "id": 21,
+      "category": {
+        "id": 2,
+        "name": "Аксесуари",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgpe7l454gc?alt=media&token=992821b7-0f62-44ef-bb49-9e6584fc6db5"
+      },
+      "brand": {
+        "id": 52,
+        "name": "Tommy Hilfiger",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5164zkx8enq?alt=media&token=4b38d8b3-6786-4a6a-aba2-906e3fb8b2ac"
+      },
+      "model": "-",
+      "size": "Універсальний",
+      "material": "100% шовк",
+      "description": "Забарвлення на кожен день, підійде майже до всього. Відмінна якість шовку. Зроблено вручну в Італії",
+      "price": 25,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fml45pp791d?alt=media&token=95ef3c0e-4237-4a08-85fa-c15d12ecedc4"
+    },
+    {
+      "id": 22,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 15,
+        "name": "Brax",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2twmww7okfk?alt=media&token=5f7a4fd9-a175-45ca-808b-f6c567eea9d1"
+      },
+      "model": "JIM",
+      "size": "50",
+      "material": "100% хлопок",
+      "description": "Джемпер на замку. Виконаний з м'якого і приємного на дотик бавовни. Кишені на замках. Фірмова металева фурнітура з найменуванням бренду. Базова забарвлення, підійде до великої кількості образів. Красива фактура трикотажу",
+      "price": 49,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5p06fwbsibh?alt=media&token=61ed1a9f-ffc4-4702-929e-a47a0ffd195a"
+    },
+    {
+      "id": 23,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 31,
+        "name": "Christian Berg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fms1lxi35epb?alt=media&token=be4a2a5c-8226-4df1-846b-a877a91be56e"
+      },
+      "model": "-",
+      "size": "XL",
+      "material": "55% шовк, 45% кашемір",
+      "description": "Приємний до тіла трикотаж. Найніжніші матеріали - кращий кашемір і шовк. Великі дорогі перламутрові ґудзики. Насичений і життєрадісний колір. Чудова якість матеріалу, крою та виконання!",
+      "price": 32,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fs1s3v27akoe?alt=media&token=e53cd289-e9fe-4cbf-8500-5a0d529d10c7"
+    },
+    {
+      "id": 24,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 54,
+        "name": "Closed",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcgqw75tpmsv?alt=media&token=991846d2-bd2f-4dca-bd80-8a0281164594"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "55% акрил, 30% шерсть, 20% альпака",
+      "description": "Приталений крій. М'який светр з шале-образним коміром. Красива, об'ємна в'язка. Застібка \"Монті\" з характерним джутовим шнуром і дерев'яною ґудзиком в формі мережевого ікла. М'яка шерсть \"альпака\" в складі. Чудова якість матеріалу, крою та виконання!",
+      "price": 55,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3bb3am84k97?alt=media&token=936131d5-ee6f-4ffa-80ab-e68b8b53ef32"
+    },
+    {
+      "id": 25,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 36,
+        "name": "Daniel Hechter",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv6u45g3cza?alt=media&token=a014260a-7df7-4256-bf22-58a0b2b2a089"
+      },
+      "model": "-",
+      "size": "XL",
+      "material": "35% поліамід, 30% віскоза, 30% шерсть, 5% кашемір",
+      "description": "М'який трикотаж з додаванням кашеміру. Гарний, соковитий відтінок. Філігранна вишивка логотипу на грудях. Зроблено в Італії",
+      "price": 40,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fwkgzg01ywbk?alt=media&token=c9db8a4b-a473-4a74-9380-802887d211b1"
+    },
+    {
+      "id": 26,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 17,
+        "name": "G-Star",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F35kw85bkek3?alt=media&token=7bc92832-5251-4976-8560-8ebdf2832fe8"
+      },
+      "model": "RAW GS133",
+      "size": "L",
+      "material": "72% хлопок, 28% поліестер",
+      "description": "Стильний кардиган з 2 видів футера і твілловимі кишенями. Вишивка XXX на кишені і ззаду - символи Амстердама - батьківщини бренду. Фірмова жовто-чорна нашивка з найменуванням бренду - підпис бренду практично на кожному виробі. Ґудзики з гравіюванням найменування бренду. Чудова якість матеріалу, крою та виконання!",
+      "price": 38,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fd22jucx7e65?alt=media&token=5d4a29f3-8cee-460e-94be-42f41d802780"
+    },
+    {
+      "id": 27,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 53,
+        "name": "Gant",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu2blorws2qo?alt=media&token=af05d14c-1b3b-4c59-b3d4-1df40649902e"
+      },
+      "model": "83502",
+      "size": "M",
+      "material": "100% шерсть",
+      "description": "Філігранна вишивка логотипу на грудях. Тепла овеча шерсть. Трикотажна гумка на манжетах і внизу дозволить речі краще \"сісти\" по фігурі, зафіксуватися в правильному положенні. Базова забарвлення, підійде до великої кількості образів",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F06rk3w9gral?alt=media&token=790c9e61-6e4b-4b2d-a0d0-ce80e8565b92"
+    },
+    {
+      "id": 28,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 18,
+        "name": "Hugo Boss",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+      },
+      "model": "Darrus",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "Виконаний з м'якого, щільного і приємного на дотик бавовни. Стильний і незвичайний крій капюшона. Капюшон оброблений всередині м'яким бавовною \"джерсі\". Фірмова металева фурнітура з найменуванням бренду. контрастна блискавка",
+      "price": 57,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffdyicb1hxbe?alt=media&token=71164bcd-1458-459a-baca-427cbf083d0b"
+    },
+    {
+      "id": 29,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 45,
+        "name": "Jeckerson",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F1ewymcy42rv?alt=media&token=c522756d-f7b7-44df-8f85-156a8c6800be"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "90% шерсть, 10% кашемiр",
+      "description": "Неймовірно приємна на дотик тканина - шерсть найвищого класу і кашемір. Красиві гудзики з гравіюванням найменування бренду. Стильна забарвлення. Зроблено в Італії. Чудова якість матеріалу, крою та виконання!",
+      "price": 30,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbjfim22gtq?alt=media&token=700b6881-897b-4ba3-aaee-d784e5759f72"
+    },
+    {
+      "id": 30,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 29,
+        "name": "Paul & Joe",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffqqu0kgtlog?alt=media&token=4e2ea2af-2582-4949-a403-e5b8f3b28aa4"
+      },
+      "model": "-",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "М'який, приємний на дотик бавовна. Красива забарвлення. Чудова якість матеріалу, крою та виконання",
+      "price": 33,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgtvx8l6zcq?alt=media&token=47d5f778-047e-4844-88db-c6bde82cba34"
+    },
+    {
+      "id": 31,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 33,
+        "name": "Joop",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fdye5e8wxk99?alt=media&token=4e56c008-63e6-4f69-91b2-a33d1b90f8b1"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "100% шерсть",
+      "description": "V-подібний воріт візуально розширює плечі, роблячи фігуру більш спортивною. Трикотажна гумка на манжетах і внизу дозволить речі краще \"сісти\" по фігурі, зафіксуватися в правильному положенні. Приємна, благородна забарвлення. Чудова якість матеріалу, крою та виконання",
+      "price": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcktj6ey192d?alt=media&token=93cd4649-d0e4-42e7-9d86-2e4f248ffcd5"
+    },
+    {
+      "id": 32,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 40,
+        "name": "Massimo Dutti",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fr6qaxerroi?alt=media&token=880f54a8-fa67-43bb-9961-7d195f028367"
+      },
+      "model": "-",
+      "size": "XL",
+      "material": "90% хлопок, 10% кашемiр",
+      "description": "Виконана з м'якого і приємного на дотик бавовни з додаванням кашеміру. Кашемір - надзвичайно м'який, легкий і приємний на дотик матеріал. Ґудзики з натурального, дорогого, благородного роги. Ґудзики з натурального, дорогого, благородного роги. Патчі на ліктях. Красива і стильна застібка.",
+      "price": 40,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fw0jx7zjikso?alt=media&token=448f89d4-0309-4740-a4cc-e4bb3216e8f2"
+    },
+    {
+      "id": 33,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 52,
+        "name": "Tommy Hilfiger",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5164zkx8enq?alt=media&token=4b38d8b3-6786-4a6a-aba2-906e3fb8b2ac"
+      },
+      "model": "-",
+      "size": "XXL",
+      "material": "100% пина хлопок",
+      "description": "\nПолувер у фірмових кольорах бренду. V-подібний воріт візуально розширює плечі, роблячи фігуру більш спортивною. Бавовна \"Піма\" - елітна особливо-м'яка різновид довговолокнистої бавовни родом з Перу. Філігранна вишивка логотипу на грудях. Трикотажна гумка на манжетах і внизу дозволить речі краще \"сісти\" по фігурі, зафіксуватися в правильному положенні. Чудова якість матеріалу, крою та виконання!",
+      "price": 37,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frh9ig83aez9?alt=media&token=ab6a8616-c981-4b5e-81aa-93245ce71c3b"
+    },
+    {
+      "id": 34,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 8,
+        "name": "Ralph Lauren",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fh00oe80lly?alt=media&token=c794ef50-6792-47ef-b152-cda78f0cf2f3"
+      },
+      "model": "-",
+      "size": "М",
+      "material": "100% хлопок",
+      "description": "Виконана з м'якого, щільного і приємного на дотик бавовни. Високоякісна сировина - довговолокнистих бавовна забезпечує благородний блиск, гладкість і чудові експлуатаційні характеристики. Трикотажна гумка на манжетах і внизу дозволить речі краще \"сісти\" по фігурі, зафіксуватися в правильному положенні. Філігранна вишивка логотипу грудей. Чудова якість матеріалу, крою та виконання!",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv5ogqb79uvm?alt=media&token=5854ca3e-2b3f-456b-8432-315360aa9874"
+    },
+    {
+      "id": 35,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 53,
+        "name": "Gant",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu2blorws2qo?alt=media&token=af05d14c-1b3b-4c59-b3d4-1df40649902e"
+      },
+      "model": "-",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "\"Американський\" воріт на гудзиках. Кращий сорочковий бавовна -\nпоплін. Високоякісна сировина - довговолокнистих бавовна забезпечує благородний блиск, гладкість і чудові експлуатаційні характеристики. Ознака якісної сорочки - ідеальна підгонка нагрудної кишені по малюнку - кишені майже не видно, але він є. Чудова якість матеріалу, крою та виконання!",
+      "price": 19,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fnn7sx6ad8ak?alt=media&token=7c350d7b-22a6-4d3d-8ee8-34d76213ee9a"
+    },
+    {
+      "id": 36,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 44,
+        "name": "Scotch & Soda",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fzuta6g09gzr?alt=media&token=4b024a5c-b090-4347-9c48-64db3c5d1baf"
+      },
+      "model": "PALMS",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Приталений крій. Приємний до тіла, легкий хлопок. Короткий рукав з манжетом. Фірмова металева фурнітура з найменуванням бренду внизу. Цікавий крій нагрудної кишені.",
+      "price": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fy1c1uns8p8?alt=media&token=ba805328-c0a7-4036-9d70-8cc6be9a2211"
+    },
+    {
+      "id": 37,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 48,
+        "name": "Take Two",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F617c9cgcbf?alt=media&token=4b32bc29-23b9-4ee3-8f4b-473080996bb7"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "54% хлопок, 46% льон",
+      "description": "Тканина з льоном - це комфортна і практична тканина. Волокна льону надзвичайно міцні і дуже погано проводять тепло. За рахунок цього в лляної тканини ніколи не буде жарко. Льон створить комфортний мікроклімат і порадує своєю практичністю. На кнопках. Цікава, стильна річ з великою кількістю красивих деталей. Зроблено в Італії.",
+      "price": 20,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7zu8tqt1al8?alt=media&token=b6c186ad-6740-4707-91e7-231ba7973685"
+    },
+    {
+      "id": 38,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 5,
+        "name": "Aglini",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fpgqsvqg7u8m?alt=media&token=e5e4707e-e010-4d3e-b33e-e3c77da67cbd"
+      },
+      "model": "-",
+      "size": "45",
+      "material": "100% хлопок",
+      "description": "Приталений крій. Красива, глибока забарвлення. Дорогі перламутрові ґудзики з устричної раковини з гравіюванням найменування бренду. Стильні манжети з іншої тканини. Майстерня обробка петель. Чудова якість матеріалу, крою та виконання!",
+      "price": 31,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Faz9p5n3wf05?alt=media&token=28673bac-bded-4b99-8dd4-1caab2304629"
+    },
+    {
+      "id": 39,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 34,
+        "name": "Luigi Borrelli",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frqf1356i8mq?alt=media&token=d857d939-61f6-4c2a-952b-ec538169d336"
+      },
+      "model": "-",
+      "size": "XXL",
+      "material": "100% хлопок",
+      "description": "Прямий крій. \"Американський\" воріт на гудзиках. Виконана з м'якого, щільного і приємного на дотик фланелевого бавовни. Безліч ручних операцій - ручним стібком пришиті рукави, виконаний плечовий шов, пришиті ластовіци і нашивки, оброблена петля. Дорогі перламутрові ґудзики з устричної раковини. М'який, комфортний воріт. Красива, стильна забарвлення. Зроблено в Італії. Чудова якість матеріалу, крою та виконання!",
+      "price": 61,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fn9hfkebxn8k?alt=media&token=ccdb4366-aa33-48ee-8ae3-36a7dca60bb1"
+    },
+    {
+      "id": 40,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 14,
+        "name": "Caliban",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F9fpru77pgyp?alt=media&token=44056b27-9ca5-4bae-9217-0c704bc41ed0"
+      },
+      "model": "15041",
+      "size": "46",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Виконана з м'якого, щільного і приємного на дотик бавовни. Ознака якісної сорочки - ідеальна підгонка нагрудної кишені по малюнку - кишені майже не видно, але він є. \"Листівці\" для зміцнення бокового шва. Бренд спеціалізується на виробництві сорочок і як більшість брендів в Італії з моно-спеціалізацією створюють незрівнянні за якістю і рівнем закладених технологій продукти.",
+      "price": 34,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fhxdt8jttdnj?alt=media&token=7d62ec9a-40aa-4689-921d-6fca32253456"
+    },
+    {
+      "id": 41,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 54,
+        "name": "Closed",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcgqw75tpmsv?alt=media&token=991846d2-bd2f-4dca-bd80-8a0281164594"
+      },
+      "model": "84018-06J-70",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Приталений крій. \"Американський\" вузький воріт на гудзиках. Легкий літній бавовна - шовковистий і м'який. Морська тема - смужки зроблені з імітацією роботи пензля художника. Дорогі перламутрові ґудзики з устричної раковини. Зроблено в Португалії. Чудова якість матеріалу, крою та виконання!",
+      "price": 49,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frk9w6dpgug?alt=media&token=46f66782-58dd-4df9-b262-a338ed08c2d5"
+    },
+    {
+      "id": 42,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 9,
+        "name": "Dolce & Gabbana",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fq8evlm6757?alt=media&token=37846b49-8989-4d75-84d9-0cfe7177e190"
+      },
+      "model": "-",
+      "size": "40",
+      "material": "100% хлопок",
+      "description": "\nПерша лінія бренду! Приталений крій. Вертикальна смужка \"стрункішою\". Потаємні гудзики закриті спеціальною планкою. Шліца рукава піднімається вище ліктя, на ґудзиках. Виглядає дуже оригінально, цікаво і стильно. Бавовна найвищого класу. Ґудзики з найменуванням бренду. Зроблено в Італії",
+      "price": 52,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7ngnn44cvas?alt=media&token=2a397ff3-3931-405b-841b-68e426bbf2e9"
+    },
+    {
+      "id": 43,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 17,
+        "name": "G-Star",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F35kw85bkek3?alt=media&token=7bc92832-5251-4976-8560-8ebdf2832fe8"
+      },
+      "model": "-",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Щільний матеріал. Легкий, красивий \"Фейд\". Фірмовий стиль G-Star - нелінійне розташування кишень. Фірмова металева фурнітура з найменуванням бренду. Ґудзики з гравіюванням найменування бренду. Чудова якість матеріалу, крою та виконання!",
+      "price": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgnq972gro3l?alt=media&token=e16921da-2767-4202-9178-6b7214f77b9a"
+    },
+    {
+      "id": 44,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 24,
+        "name": "Emmet",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3e9oqj1qtoj?alt=media&token=9799ad59-1302-45c4-a399-94b4c606a579"
+      },
+      "model": "-",
+      "size": "42",
+      "material": "100% хлопок",
+      "description": "Приталенный крой. Классический и универсальный ворот “Kent”. “Французский манжет” под запонку. Фирменные “косточки” с наименованием бренда. Выполнена из мягкого, плотного и приятного на ощупь хлопка “твилл”. Базовая расцветка, подойдет к большому количеству образов. Великолепное качество материала, кроя и исполнения!",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ferl7qjwjk1?alt=media&token=fd7e3d62-f4bd-478a-ab38-cc54c96c38e0"
+    },
+    {
+      "id": 45,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 12,
+        "name": "Ermenegildo Zegna",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa25hfqvmd6e?alt=media&token=2ffed28f-5346-44a5-b08d-4357ff12cc99"
+      },
+      "model": "-",
+      "size": "43",
+      "material": "100% хлопок",
+      "description": "Ексклюзивна і дорога лінія бренду - 5 зірок (Couture). Виконана з шовковистого, щільного і приємного на дотик бавовни. Дорогі перламутрові ґудзики з устричної раковини. \"Листівці\" для зміцнення бокового шва. Зроблено в Італії. Чудова якість матеріалу, крою та виконання!",
+      "price": 101,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgldk3hk0xbi?alt=media&token=3a87e76c-be31-4149-8d18-eaead56d5b04"
+    },
+    {
+      "id": 46,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 25,
+        "name": "Gaastra",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffaw79dx2n7a?alt=media&token=0da98176-16fb-4de8-9feb-877499d23559"
+      },
+      "model": "-",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "Відомий яхтінговий бренд. \"Американський\" воріт на гудзиках. Щільний, якісний бавовна. Приємна кольорова гама. Вишивки на спині і грудях. Металева фурнітура. Ластоціци з вишивкою. Ґудзики з найменуванням бренду. Товста декоративна прострочки.",
+      "price": 26,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjms7ryccaj?alt=media&token=a71d6550-b403-4be9-9b8f-5c2e4f6da2b5"
+    },
+    {
+      "id": 47,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 4,
+        "name": "Alexander McQueen",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fm3m6v10cxwo?alt=media&token=e510f782-7bfb-4f9d-adc7-9a508af92978"
+      },
+      "model": "-",
+      "size": "29",
+      "material": "100% хлопок",
+      "description": "Однотонні, що не зістарені. Стильний аксесуар - підтяжки на ґудзиках. Якщо підтяжки, то тільки на ґудзиках, решта - моветон. Вишивка на задній кишені з найменуванням бренду. Люксовая фурнітура італійського виробництва - \"Spring'85\". Ґудзики з найменуванням бренду. Регульований пояс - cinch backs або buckle back - традиційний атрибут джинсів часів, коли ще не були поширені звичні ремені. Зроблені в Італії",
+      "price": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fvloko6wp4ro?alt=media&token=479744d5-c193-4348-90ea-4f9be1e01d09"
+    },
+    {
+      "id": 48,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 15,
+        "name": "Brax",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2twmww7okfk?alt=media&token=5f7a4fd9-a175-45ca-808b-f6c567eea9d1"
+      },
+      "model": "CADIZ",
+      "size": "M",
+      "material": "82% бавовна, 15% поліестер, 3% еластан",
+      "description": "Прямий крій. Виконано з м'якого, щільного і приємного на дотик матеріалу. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Фірмова металева фурнітура з найменуванням бренду. Шкіряний патч. Базова забарвлення, підійде до великої кількості образів. Чудова якість матеріалу, крою та виконання!",
+      "price": 36,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fp5drz7u9mi?alt=media&token=a697a3f7-c61b-4a98-b4a3-3d816ec9c997"
+    },
+    {
+      "id": 49,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 31,
+        "name": "Christian Berg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fms1lxi35epb?alt=media&token=be4a2a5c-8226-4df1-846b-a877a91be56e"
+      },
+      "model": "GEORGIA",
+      "size": "M",
+      "material": "85% бавовна, 13% поліестер, 2% еластан",
+      "description": "Прямий крій. Фірмова металева фурнітура з найменуванням бренду. Практична і міцна тканина. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Базова забарвлення, підійде до великої кількості образів. Можна успішно поєднувати з піджаками.",
+      "price": 38,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2lfmoq5oac?alt=media&token=928f1342-d597-4dc6-9e38-e448910ae632"
+    },
+    {
+      "id": 50,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 24,
+        "name": "Emmet",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3e9oqj1qtoj?alt=media&token=9799ad59-1302-45c4-a399-94b4c606a579"
+      },
+      "model": "Joe",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Щільний фактурний денім преміум-класу. Легкий \"Фейд\". Фірмова металева фурнітура з найменуванням бренду. Нашивка з найменуванням бренду на задній кишені. Шкіряний патч з тисненням. Зроблені в усіх традиціях \"фанатами\" деніму.",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8jox3i2sh65?alt=media&token=705886b6-ec27-41c4-bbfc-860b88285f08"
+    },
+    {
+      "id": 51,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 53,
+        "name": "Gant",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu2blorws2qo?alt=media&token=af05d14c-1b3b-4c59-b3d4-1df40649902e"
+      },
+      "model": "Tyler",
+      "size": "S",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Щільний денім преміум-класу. Гарний, глибокий \"Фейд\". 3-D складки. Фірмова металева фурнітура з найменуванням бренду. Філігранна вишивка логотипу на кишеньці для годин. Шкіряний патч з тисненням.",
+      "price": 54,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fratrjuga9o?alt=media&token=1f42317a-2716-49e5-9b6f-72322f79c145"
+    },
+    {
+      "id": 52,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 13,
+        "name": "Gardeur",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fow77kx46kgo?alt=media&token=a08a888b-1240-4196-9ce4-6a97d6bfec65"
+      },
+      "model": "BILL-2",
+      "size": "L",
+      "material": "97% хлопок, 3% eластан",
+      "description": "Прямий крій. Виконано з м'якого, щільного і приємного на дотик бавовни. Фірмова металева фурнітура з найменуванням бренду. Шкіряний патч. Базова забарвлення, підійде до великої кількості образів. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Чудова якість матеріалу, крою та виконання!",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F839p6ch2ewl?alt=media&token=ccd6fec7-14ee-46f1-af66-a36ee5e484bd"
+    },
+    {
+      "id": 53,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 18,
+        "name": "Hugo Boss",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+      },
+      "model": "Arkansas1",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Вельвет - тренд 2018-2019 роки. Річ з вельвету в вашому гардеробі - показник, що ви \"тримайте ніс за вітром\". Середній рубчик. Оксамитова і приємна на дотик тканина. Фірмова металева фурнітура з найменуванням бренду. Базова забарвлення, підійде до великої кількості образів.",
+      "price": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F1oid3ump3bl?alt=media&token=2bc877d3-9af5-41ec-a8ea-6792b28bd4ff"
+    },
+    {
+      "id": 54,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 42,
+        "name": "J.Lindeberg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F4p0mi0w8we?alt=media&token=4fd5b6e7-90b9-4144-bfd3-d353e423292b"
+      },
+      "model": "JAY",
+      "size": "M",
+      "material": "98% хлопок, 2% eластан",
+      "description": "Звужений крій. Щільний денім преміум-класу. Легкий \"Фейд\". Фірмова металева фурнітура з найменуванням бренду. Шкіряний патч. Базова забарвлення, підійде до великої кількості образів. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися.",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fizxmesw67r?alt=media&token=d962f5b0-07a9-4be7-a42c-5172885dc71b"
+    },
+    {
+      "id": 55,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 45,
+        "name": "Jeckerson",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F1ewymcy42rv?alt=media&token=c522756d-f7b7-44df-8f85-156a8c6800be"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "97% хлопок, 3% эластан",
+      "description": "Звужений крій. Фірмовий, впізнаваний крій з \"патчами\" на стегнах. Фірмова металева фурнітура з найменуванням бренду. Гарний, шляхетний, варіативний пляшковий колір. Зроблені в Італії. Чудова якість матеріалу, крою та виконання!",
+      "price": 48,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F28tp98avwd3?alt=media&token=b04b879e-14c0-4498-8f29-f64762068954"
+    },
+    {
+      "id": 56,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 33,
+        "name": "Joop",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fdye5e8wxk99?alt=media&token=4e56c008-63e6-4f69-91b2-a33d1b90f8b1"
+      },
+      "model": "RYAN N",
+      "size": "M",
+      "material": "98% хлопок, 2% eластан",
+      "description": "Прямий крій. Злегка занижена посадка. Денім преміум-класу. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Легкий \"Фейд\". Красива підкладка і обробка пояса. Фірмова металева фурнітура з найменуванням бренду.",
+      "price": 45,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbbiegqvm9ev?alt=media&token=2f7762a7-b0a7-4a54-afb5-6aec25308c37"
+    },
+    {
+      "id": 57,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 19,
+        "name": "Replay",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fegdooclczl?alt=media&token=fc96a895-dabf-431e-af63-7f8e9e958b03"
+      },
+      "model": "WAITOM",
+      "size": "M",
+      "material": "98% хлопок, 2% eластан",
+      "description": "Звужений крій. Щільний денім преміум-класу. Гарний, глибокий \"Фейд\". 3-D складки. Фірмова металева фурнітура з найменуванням бренду. Фірмова вставка над передньою кишенею. Впізнавана форма задніх кишень Replay з яскравою вишивкою \"R\"",
+      "price": 57,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fkldppa9uuk?alt=media&token=11ef1804-7a78-4f8b-bed0-d9f8e0d18553"
+    },
+    {
+      "id": 58,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 49,
+        "name": "Roy Rogers",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fsitc4p9i0gf?alt=media&token=a131f0c1-423f-4e69-8fb5-196185675111"
+      },
+      "model": "529",
+      "size": "29",
+      "material": "100% хлопок",
+      "description": "Звужений крій. Щільний денім преміум-класу. Шкіряний патч. Фірмова металева фурнітура з найменуванням бренду. Нашивка з найменуванням бренду. Гарний, складний колір. Зроблені в Італії",
+      "price": 45,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F51vdpdj6bf5?alt=media&token=f0dbb86a-dcfb-4a95-98a7-8882a85ba322"
+    },
+    {
+      "id": 59,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 44,
+        "name": "Scotch & Soda",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fzuta6g09gzr?alt=media&token=4b024a5c-b090-4347-9c48-64db3c5d1baf"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "100% хлопок",
+      "description": "Звужений крій. Гарний, насичений колір. 3-D складки. Філігранна вишивка логотипу на задній кишені. Фірмова металева фурнітура з найменуванням бренду. Анатомічне состаривание. Чудова якість матеріалу, крою та виконання!",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fnyde10jd0h?alt=media&token=e4c630b1-ad9b-4d3e-80c0-19bf8846eea6"
+    },
+    {
+      "id": 60,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 50,
+        "name": "Timberland",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjefxu0vfwus?alt=media&token=2a34a518-ece9-4570-aaa9-03d6531bf632"
+      },
+      "model": "8749J",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Виконано з м'якого, щільного і приємного на дотик бавовни \"твілл\". Філігранна вишивка логотипу над задньою кишенею. Ефект складної, нерівномірного забарвлення за рахунок технології \"Garment Dyed\". красива забарвлення",
+      "price": 40,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frd8jp1dp9no?alt=media&token=a635929c-2c46-4a76-a841-35dbbb068c9d"
+    },
+    {
+      "id": 61,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 1,
+        "name": "Armani",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0ixod9fma43l?alt=media&token=53c8770f-0e22-4a63-b902-88072d8aaffe"
+      },
+      "model": "W57YA",
+      "size": "L",
+      "material": "100% льон, елементи - 100% бавовна",
+      "description": "Приталений крій. Дорога тканина з льону. Тканина з льоном - це комфортна і практична тканина. Волокна льону надзвичайно міцні і дуже погано проводять тепло. За рахунок цього в лляної тканини ніколи не буде жарко. Льон створить комфортний мікроклімат і порадує своєю практичністю. Оздоблення деталей бавовною \"джерсі\". Ґудзики з натурального, дорогого, благородного полірованого роги з гравіюванням найменування бренду. Нашивка з найменуванням бренду збоку. Стильна і незвичайна річ!",
+      "price": 110,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7mxtk20ip46?alt=media&token=4071716c-7ecd-4b52-b2ad-3182b51c678c"
+    },
+    {
+      "id": 62,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 41,
+        "name": "Corneliani",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fndxajlr7pwc?alt=media&token=37501d3d-6db6-4801-98d8-502137d2a4ac"
+      },
+      "model": "J XU58 0 VISION SOFT",
+      "size": "52",
+      "material": "100% льон",
+      "description": "У міру приталений крій. Забарвлення \"Принц Уельський\" (Glen Plaid). Полегшена (часткова) підкладка піджака дасть можливість речі сісти точніше, краще повторити контури фігури, такий піджак більш зручний в носінні, в ньому легше рухатися. Красива підкладка і обробка кишень. Ґудзики з натурального, дорогого, благородного роги. Тканина з льоном - це комфортна і практична тканина. Волокна льону надзвичайно міцні і дуже погано проводять тепло. За рахунок цього в лляної тканини ніколи не буде жарко. Льон створить комфортний мікроклімат і порадує своєю практичністю.",
+      "price": 120,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8nv4h3cq8q?alt=media&token=4866a029-505b-4379-8645-60242d7a7524"
+    },
+    {
+      "id": 63,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 12,
+        "name": "Ermenegildo Zegna",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa25hfqvmd6e?alt=media&token=2ffed28f-5346-44a5-b08d-4357ff12cc99"
+      },
+      "model": "AMALFI",
+      "size": "56",
+      "material": "100% шерсть",
+      "description": "\"Full canvas\" піджак повністю зшитий вручну. Фірмова НЕ-клейова натуральна прокладка надає піджака еластичність, він краще сидить, краще пропускає повітря, неймовірно комфортний при носінні, для даного типу пошиття класичного чоловічого одягу характерно рівномірний розподіл тиску на по всіх точках вашого тіла, за рахунок цього створюється максимальний комфорт і ідеальна посадка . Краща італійська вовняна тканина. Ґудзики з натурального матеріалу - пальма \"корозо\", чорний перламутр з гравіюванням бренду. Еталонне виконання.",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbsucigiutm8?alt=media&token=73f61d03-1111-49c4-af4e-9204487ed58e"
+    },
+    {
+      "id": 64,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 36,
+        "name": "Daniel Hechter",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv6u45g3cza?alt=media&token=a014260a-7df7-4256-bf22-58a0b2b2a089"
+      },
+      "model": "47120",
+      "size": "48",
+      "material": "92% бавовна, 6% поліестер, 2% еластан",
+      "description": "Приталений крій. Виконаний з м'якого, щільного і приємного на дотик бавовни. Полегшена (часткова) підкладка піджака дасть можливість речі сісти точніше, краще повторити контури фігури, такий піджак більш зручний в носінні, в ньому легше рухатися. Можна прати, що дуже практично. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Красива підкладка і обробка кишень. Контрастні гудзики.",
+      "price": 67,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F48qy0kjmm7?alt=media&token=1505e23b-5ba7-484b-8de0-6cff99e41b07"
+    },
+    {
+      "id": 65,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 18,
+        "name": "Hugo Boss",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+      },
+      "model": "Aamon",
+      "size": "46",
+      "material": "100% хлопок",
+      "description": "Вельвет - тренд зими 2018. Річ з вельвету в вашому гардеробі - показник, що ви \"тримайте ніс за вітром\". Дрібний рубчик. Оксамитова і приємна на дотик тканина. Красива бавовняна підкладка і оздоблення внутрішніх кишень. Ґудзики з натурального, дорогого, благородного роги. Дуже добре поєднується з бавовняними брюками з твілла або фланелевою вовни.",
+      "price": 77,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F32qfwczfbf2?alt=media&token=b49d846c-b8b7-4ae0-8ad0-1593fdb725d9"
+    },
+    {
+      "id": 66,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 43,
+        "name": "McGregor",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fup6lkfg6yu?alt=media&token=be2964ac-745b-4ffd-b723-11ae3eb13eb2"
+      },
+      "model": "-",
+      "size": "54",
+      "material": "40% шерсть, 50% бавовна, 10% поліестер",
+      "description": "Красива забарвлення. Щільна тканина. Замшеві \"патчі\" на логтей. \"Манжет хірурга\" -всі гудзики на манжеті розстібаються - надзвичайно складна у виконанні деталь - ознака високого класу піджака. Гарний подклад і внутрішнє оздоблення. Чудова якість матеріалу, крою та виконання!",
+      "price": 60,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ftxqjd9ax2ub?alt=media&token=bbabebca-c7df-45c2-8015-b9501f0d0332"
+    },
+    {
+      "id": 67,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 22,
+        "name": "Oscar Jacobson",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fex3bcbxmkz?alt=media&token=f307059d-9042-4691-ac4c-ea011edb560e"
+      },
+      "model": "336V",
+      "size": "48",
+      "material": "100% шерсть",
+      "description": "Приталений крій. Шовковиста і і приємна на дотик вовняна тканина італійського виробництва Lanificio Tg di Fabio. Ґудзики з натурального, дорогого, благородного роги. Ручний шов \"вспушкой\" по краю лацканів і бортів - ознака \"породистого\" піджака. Красива підкладка і оздоблення внутрішніх кишень. Базова забарвлення, підійде до великої кількості образів.",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F20v3t2q4iozh?alt=media&token=9cf66791-1fe4-4248-b15f-eaa9e9a42732"
+    },
+    {
+      "id": 68,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 8,
+        "name": "Ralph Lauren",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fh00oe80lly?alt=media&token=c794ef50-6792-47ef-b152-cda78f0cf2f3"
+      },
+      "model": "-",
+      "size": "XXL+",
+      "material": "100% верблюжа вовна",
+      "description": "Верблюжа шерсть - унікальний матеріал з цілющими властивостями. Теплий і легкий. Ґудзики з натурального, дорогого, благородного роги. Базова забарвлення, підійде до великої кількості образів. Чудова якість матеріалу, крою та виконання!",
+      "price": 70,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fqqjohzxxkmi?alt=media&token=866fa2c7-cc08-47bb-8c67-93f60bfc47c7"
+    },
+    {
+      "id": 69,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 20,
+        "name": "Rene Lezard",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fex48lwgjbvk?alt=media&token=81e4ec14-e8c7-466a-a38c-e360d1aed802"
+      },
+      "model": "65007",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "Виконаний з м'якого, щільного і приємного на дотик бавовни. Полегшена (часткова) підкладка піджака дасть можливість речі сісти точніше, краще повторити контури фігури, такий піджак більш зручний в носінні, в ньому легше рухатися. Ручний шов \"вспушкой\" по краю лацканів і бортів - ознака \"породистого\" піджака. Чудова якість матеріалу, крою та виконання!",
+      "price": 75,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frlqf26ebse?alt=media&token=0bffc205-1273-42d6-8028-dc86129569a1"
+    },
+    {
+      "id": 70,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 44,
+        "name": "Scotch & Soda",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fzuta6g09gzr?alt=media&token=4b024a5c-b090-4347-9c48-64db3c5d1baf"
+      },
+      "model": "The Tailor",
+      "size": "46",
+      "material": "98% шерсть, 2% eластан",
+      "description": "Дорога класична лінія - Atelier Scotch. Приталений крій. Виконаний з вовняного мусліну. Спеціальна стяжка шліц. \"Манжет хірурга\" -всі гудзики на манжеті розстібаються - надзвичайно складна у виконанні деталь - ознака високого класу піджака. Ґудзики з натурального, дорогого, благородного роги з гравіюванням бренду.",
+      "price": 50,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu9yk9u7nlk?alt=media&token=4ed2f868-2d9e-4ac3-8f55-72ed8da310de"
+    },
+    {
+      "id": 71,
+      "category": {
+        "id": 7,
+        "name": "Піджаки і Блейзери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+      },
+      "brand": {
+        "id": 52,
+        "name": "Tommy Hilfiger",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5164zkx8enq?alt=media&token=4b38d8b3-6786-4a6a-aba2-906e3fb8b2ac"
+      },
+      "model": "-",
+      "size": "48",
+      "material": " 100% шерсть",
+      "description": "Стильна забарвлення \"гусяча лапка\". Гудзик на манжеті з найменуванням бренду. Ticket pocket. Приємна на дотик, шовковиста і благородна шерсть. Чудова якість матеріалу, крою та виконання!",
+      "price": 90,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fykbqui6six?alt=media&token=9bafd6c7-cabb-403d-80be-496b9c69617c"
+    },
+    {
+      "id": 72,
+      "category": {
+        "id": 8,
+        "name": "Костюми",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F97imebm6gk?alt=media&token=09a3f3eb-2eaa-46ea-a37c-47eabe9a0733"
+      },
+      "brand": {
+        "id": 30,
+        "name": "Belvest",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7cj8fxhursu?alt=media&token=12a86dd9-208e-46a7-8fb8-5aa77cb8d467"
+      },
+      "model": "-",
+      "size": "54",
+      "material": "85% шовк, 15% кашемір",
+      "description": "Літній, легкий і костюм з шовку і кашеміру. Ексклюзивна дорога тканина! Великі гудзики з перламутру з гравіюванням найменування бренду. \"Full canvas\" костюм повністю зшитий вручну. Фірмова НЕ-клейова натуральна прокладка надає костюму еластичність, він краще сидить, краще пропускає повітря, неймовірно комфортний при носінні, для даного типу пошиття класичного чоловічого одягу характерно рівномірний розподіл тиску на по всіх точках вашого тіла, за рахунок цього створюється максимальний комфорт і ідеальна посадка . \"Манжет хірурга\" -всі гудзики на манжеті розстібаються - надзвичайно складна у виконанні деталь - ознака високого класу піджака. Зроблено в Італії.",
+      "price": 180,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2ghdm3auwbj?alt=media&token=6060cfbe-20f0-44d3-904e-f1598909b751"
+    },
+    {
+      "id": 73,
+      "category": {
+        "id": 8,
+        "name": "Костюми",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F97imebm6gk?alt=media&token=09a3f3eb-2eaa-46ea-a37c-47eabe9a0733"
+      },
+      "brand": {
+        "id": 10,
+        "name": "Brioni",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fx61axoywf5a?alt=media&token=b0dd9565-c63a-452b-9a65-8b6080dbae0f"
+      },
+      "model": "-",
+      "size": "54",
+      "material": "70% кашемiр 30% шoвк",
+      "description": "Made-to-Measure. Шпилястий лацкан. Ґудзики з натурального матеріалу - пальма \"корозо\". Кашемір - надзвичайно м'який, легкий і приємний на дотик матеріал. \"Манжет хірурга\" -всі гудзики на манжеті розстібаються - надзвичайно складна у виконанні деталь - ознака високого класу костюма. Підкладкова тканину з найменуванням бренду. Brioni - синонім кращого костюма. \"Full canvas\" костюм повністю зшитий вручну. 6000 ручних стібків на один костюм! Фірмова НЕ-клейова натуральна прокладка надає костюму еластичність, він краще сидить, краще пропускає повітря, неймовірно комфортний при носінні, для даного типу пошиття люксових костюмів характерно рівномірний розподіл тиску на по всіх точках вашого тіла, за рахунок цього створюється максимальний комфорт і ідеальна посадка.",
+      "price": 547,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fnuruaenf29d?alt=media&token=113e5bc5-f024-4573-ab82-612668564ab5"
+    },
+    {
+      "id": 74,
+      "category": {
+        "id": 8,
+        "name": "Костюми",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F97imebm6gk?alt=media&token=09a3f3eb-2eaa-46ea-a37c-47eabe9a0733"
+      },
+      "brand": {
+        "id": 9,
+        "name": "Dolce & Gabbana",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fq8evlm6757?alt=media&token=37846b49-8989-4d75-84d9-0cfe7177e190"
+      },
+      "model": "-",
+      "size": "48",
+      "material": "95% шерсть, 5% еластан",
+      "description": "Приталений крій піджака, завужені брюки, вузький лацкан. Ґудзики з натурального, дорогого, благородного роги з гравіюванням на звороті гудзики - традиційно для DG. Фірмова підкладка з найменуваннями бренду. \"Full canvas\" костюм повністю зшитий вручну. Фірмова НЕ-клейова натуральна прокладка надає піджака еластичність, він краще сидить, краще пропускає повітря, неймовірно комфортний при носінні, для даного типу пошиття класичного чоловічого одягу характерно рівномірний розподіл тиску на по всіх точках вашого тіла, за рахунок цього створюється максимальний комфорт і ідеальна посадка . Зроблено в Італії",
+      "price": 270,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5su6auup2hr?alt=media&token=9895b72a-cc31-4b2a-b376-1417ee5f7a3e"
+    },
+    {
+      "id": 75,
+      "category": {
+        "id": 8,
+        "name": "Костюми",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F97imebm6gk?alt=media&token=09a3f3eb-2eaa-46ea-a37c-47eabe9a0733"
+      },
+      "brand": {
+        "id": 18,
+        "name": "Hugo Boss",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+      },
+      "model": "-",
+      "size": "50",
+      "material": "100% шерсть",
+      "description": "Шовковиста і і приємна на дотик вовняна тканина S130 італійського виробництва. Ґудзики з натурального, дорогого, благородного роги. Комфортна і точна посадка створюється за рахунок вивірених протягом майже ста років роботи компанії лекал. Базова забарвлення, підійде до великої кількості образів. Чудова якість матеріалу, крою та виконання!",
+      "price": 120,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fkssugz4ypmi?alt=media&token=a46dac18-0bc0-447d-9693-1cea736a3c60"
+    },
+    {
+      "id": 76,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 15,
+        "name": "Brax",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2twmww7okfk?alt=media&token=5f7a4fd9-a175-45ca-808b-f6c567eea9d1"
+      },
+      "model": "-",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "Щільний і приємний до тіла хлопок \"піку\". Філігранна вишивка логотипу на нагрудній кишені. Яскравий, насичений, соковитий колір. Чудова якість матеріалу, крою та виконання!",
+      "price": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcr77mmvgff6?alt=media&token=468eef89-8721-4beb-a7c6-5043c98a59aa"
+    },
+    {
+      "id": 77,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 9,
+        "name": "Dolce & Gabbana",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fq8evlm6757?alt=media&token=37846b49-8989-4d75-84d9-0cfe7177e190"
+      },
+      "model": "RT0947",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Приталений крій. Красива оздоблення ворота, рукавів і планки. Філігранна вишивка логотипу на рукаві. Закрита застібка. Кращий хлопок \"піку\" італійського виробництва.",
+      "price": 57,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F79dztih80x4?alt=media&token=1f50e7d5-0b61-4d47-8e03-c373499dcc5f"
+    },
+    {
+      "id": 78,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 25,
+        "name": "Gaastra",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffaw79dx2n7a?alt=media&token=0da98176-16fb-4de8-9feb-877499d23559"
+      },
+      "model": "35.7125",
+      "size": "XXL",
+      "material": "100% хлопок",
+      "description": "Виконана з м'якого, щільного і приємного на дотик бавовни. Нашивки у фірмовій для бренду \"яхтінговой\" тематиці. Базова забарвлення, підійде до великої кількості образів. Ґудзики з гравіюванням найменування бренду.",
+      "price": 25,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8b8jtg35wdf?alt=media&token=0eeff560-271d-415d-8d9a-ce6b1e6f2ad6"
+    },
+    {
+      "id": 79,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 18,
+        "name": "Hugo Boss",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+      },
+      "model": "X-FIRENZE",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "У міру приталений крій. Виконано з м'якого, щільного і приємного на дотик бавовни \"піку\". Високоякісна сировина - довговолокнистих бавовна забезпечує благородний блиск, гладкість і чудові експлуатаційні характеристики. Філігранна вишивка логотипу на грудях. Ґудзики з гравіюванням найменування бренду. Гарний, складний, модний в цьому сезоні колір.",
+      "price": 38,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fzlfe4ooxdnd?alt=media&token=45ffe555-960a-45bd-8748-02e4c862fb63"
+    },
+    {
+      "id": 80,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 7,
+        "name": "Marc Jacobs",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F99xgaq350qo?alt=media&token=d051eda4-1593-4b59-8670-437b88c43b70"
+      },
+      "model": "S84GC0139",
+      "size": "S",
+      "material": "75% бавовна, 25% віскоза",
+      "description": "Лімітована колекція Marc Jacobs в колаборації з модним авангардним художником Нью-Йорка Bast. Стильний принт. Ярлик з найменуванням бренду по боковому шву. Дорога італійська бавовняна тканина з цікавою структурою. Зроблено в Італії.",
+      "price": 73,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fo0nzwgqswf?alt=media&token=e8175eb7-fdc1-4339-9518-52b6a199069b"
+    },
+    {
+      "id": 81,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 40,
+        "name": "Massimo Dutti",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fr6qaxerroi?alt=media&token=880f54a8-fa67-43bb-9961-7d195f028367"
+      },
+      "model": "0716",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "Прямий крій. Виконана з щільного і приємного на дотик бавовни \"піку\". Базове поло, нічого зайвого.",
+      "price": 23,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7qno2kzm22v?alt=media&token=b94dd0bd-9c97-4015-a8b3-470a211b44d0"
+    },
+    {
+      "id": 82,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 21,
+        "name": "Napapijri",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fhssua3rxlmt?alt=media&token=a233d400-fbca-46f5-a50f-8bd696ab1592"
+      },
+      "model": "NOY2GO",
+      "size": "XXL+",
+      "material": "100% хлопок",
+      "description": "Виконано з м'якого, щільного і приємного на дотик бавовни. Фірмова металева фурнітура з найменуванням бренду. Філігранна вишивка в стилі бренду. Красива, соковита забарвлення.",
+      "price": 35,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fisd6mumcj1i?alt=media&token=aa34e918-6018-4ec5-a3be-43c50ac751b2"
+    },
+    {
+      "id": 83,
+      "category": {
+        "id": 9,
+        "name": "Футболки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+      },
+      "brand": {
+        "id": 52,
+        "name": "Tommy Hilfiger",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5164zkx8enq?alt=media&token=4b38d8b3-6786-4a6a-aba2-906e3fb8b2ac"
+      },
+      "model": "-",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Приталений крій. Вузький воріт. Красива забарвлення в морському стилі. М'який, приємний до тіла натуральний матеріал - бавовна. Нашивка з найменуванням бренду внизу. Філігранна вишивка логотипу рукаві. Ґудзики з гравіюванням найменування бренду.",
+      "price": 36,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fifokbuen7ps?alt=media&token=b9c3523d-392c-4f72-a790-d12e56f1145b"
+    },
+    {
+      "id": 84,
+      "category": {
+        "id": 11,
+        "name": "Взуття",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Floppaw9jih8?alt=media&token=bd8115bf-0263-4b32-b684-e2dd250806a8"
+      },
+      "brand": {
+        "id": 6,
+        "name": "Zonkey Boot",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0rafa6p2393l?alt=media&token=087caa0a-1f98-4274-9d9b-517f3c8fd2f8"
+      },
+      "model": "2b 127",
+      "size": "43.5",
+      "material": "100% Шкіра",
+      "description": "Пара виконана зі шкіри буйволяче шкіри. Ця шкіра відрізняється фортецею, м'якістю і особливою, красивою зернистою структурою. Ручна забарвлення пари.Внутрі - найкраща теляча шкіра рослинного дублення. Шкіряна підошва прикріплена НЕ-клейовим способом дозволить нозі дихати, створить правильний, комфортний мікро-клімат всередині. Прошита підошва GoodYear - ознака пари високого класу. Заводська гума Vibram на шкіряній підошві дасть можливість вільно носити пару в сиру погоду. Повністю зроблені вручну в Італії. Пара класу High-End. Рівня - Crockett and Jones, John Lobb, Berluti, Edward Green.",
+      "price": 335,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffon44qjihkr?alt=media&token=c6129c96-2a90-4ffe-980f-05ebf0e28519"
+    },
+    {
+      "id": 85,
+      "category": {
+        "id": 11,
+        "name": "Взуття",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Floppaw9jih8?alt=media&token=bd8115bf-0263-4b32-b684-e2dd250806a8"
+      },
+      "brand": {
+        "id": 50,
+        "name": "Timberland",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjefxu0vfwus?alt=media&token=2a34a518-ece9-4570-aaa9-03d6531bf632"
+      },
+      "model": "83591",
+      "size": "42",
+      "material": "100% шкіра",
+      "description": "Преміальна шкіра - товста і м'яка. Тиснення логотипу на правому бердце. Контрастна строчка. Фірмова металева фурнітура з найменуванням бренду. Чи не слизька, практична підошва. Комфортна, зручна і стильна пара на літо!",
+      "price": 119,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fvmdnjzozfi8?alt=media&token=4b4b8c3b-11b0-4bf6-92ba-5c478ea38a41"
+    },
+    {
+      "id": 86,
+      "category": {
+        "id": 11,
+        "name": "Взуття",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Floppaw9jih8?alt=media&token=bd8115bf-0263-4b32-b684-e2dd250806a8"
+      },
+      "brand": {
+        "id": 51,
+        "name": "Gravati",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgze4rcwkan?alt=media&token=dac3485c-8fff-4066-8576-294e1989d192"
+      },
+      "model": "-",
+      "size": "43",
+      "material": "100% шкіра",
+      "description": "Ексклюзивна пара зроблена повністю вручну в одній з найпрестижніших і визнаних майстерень в Італії (рік заснування: 1909). Конструкція - Derby. Кріплення підошви: Blake. Шкіряна підошва прикріплена НЕ-клейовим способом дозволить нозі дихати, створить правильний, комфортний мікро-клімат всередині. Прошита підошва - ознака пари високого класу. Легке патинування: ручний трудомісткий процес і красива, \"дорога\" деталь. Варто накат. Зроблені в Італії",
+      "price": 225,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fc6cafcw1pb9?alt=media&token=f3934afb-7eef-42df-ba7b-b3e2c0f8ca1f"
+    },
+    {
+      "id": 87,
+      "category": {
+        "id": 11,
+        "name": "Взуття",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Floppaw9jih8?alt=media&token=bd8115bf-0263-4b32-b684-e2dd250806a8"
+      },
+      "brand": {
+        "id": 51,
+        "name": "Gravati",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgze4rcwkan?alt=media&token=dac3485c-8fff-4066-8576-294e1989d192"
+      },
+      "model": "14269",
+      "size": "40",
+      "material": "100% шкіра",
+      "description": "Дербі найстарішої міланської майстерні з пошиття взуття. Черевики повністю зроблені вручну з кращої шкіри, одними з кращих майстрів. Шкіряна підошва прикріплена НЕ-клейовим способом дозволить нозі дихати, створить правильний, комфортний мікро-клімат всередині. Плетені шкіра красиво поєднується з гладкою. Еталонне виконання. Зроблені в Італії.",
+      "price": 159,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fayv9z2x3qp?alt=media&token=44d299ad-6803-4cf9-9690-79ee1beae600"
+    },
+    {
+      "id": 88,
+      "category": {
+        "id": 10,
+        "name": "Верхній одяг",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+      },
+      "brand": {
+        "id": 36,
+        "name": "Daniel Hechter",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv6u45g3cza?alt=media&token=a014260a-7df7-4256-bf22-58a0b2b2a089"
+      },
+      "model": "Jacke",
+      "size": "54",
+      "material": "75% шерсть, 20% поліамід, 5% кашемір",
+      "description": "Пальто-куртка на мембрані Gore-Tex. Технологічна мембрана повністю пропускає повітря, зберігаючи комфортну температуру тіла, має гарну термо-регуляцією, створює максимальний комфорт. Матеріал верху з додаванням кашеміру - м'який і приємний на дотик. Ґудзики з гравіюванням найменування бренду. Філігранна вишивка логотипу на боковій кишені. Безліч внутрішніх кишень для квитків і мобільного телефону. Ергономічна, продумана до дрібниць.",
+      "price": 105,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fekrzljwcew8?alt=media&token=1e6a9662-533e-460a-b77d-da45d6ec7cc6"
+    },
+    {
+      "id": 89,
+      "category": {
+        "id": 10,
+        "name": "Верхній одяг",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+      },
+      "brand": {
+        "id": 24,
+        "name": "Emmet",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3e9oqj1qtoj?alt=media&token=9799ad59-1302-45c4-a399-94b4c606a579"
+      },
+      "model": "Jeans 7143",
+      "size": "M",
+      "material": "100% хлопок",
+      "description": "Річ від справжніх фанатів деніму. Щільний матеріал високої якості. Фірмова металева фурнітура з найменуванням бренду. Принт ззаду. Ручне состаривание. Стильна і незвичайна річ.",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fg6cpff7olmv?alt=media&token=1da1e72f-0c3f-42f1-b517-20151a67c28e"
+    },
+    {
+      "id": 90,
+      "category": {
+        "id": 10,
+        "name": "Верхній одяг",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+      },
+      "brand": {
+        "id": 12,
+        "name": "Ermenegildo Zegna",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa25hfqvmd6e?alt=media&token=2ffed28f-5346-44a5-b08d-4357ff12cc99"
+      },
+      "model": "-",
+      "size": "54",
+      "material": " 100% кашемiр",
+      "description": "Гарний темно-сірий (вугільний) колір. З поясом. Закрита застібка на ґудзиках. Ґудзики з натурального, дорогого, благородного роги. Підкладка тільки на рукавах. Підкладка з Cupro Bemberg - дихаючого і зносостійкого натурального матеріалу преміум-класу. Кашемір - надзвичайно м'який, легкий і приємний на дотик матеріал. У цьому пальто використана краща кашеміру тканину італійського виробництва. Еталонне ручне виконання. Зроблено в Італії",
+      "price": 210,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fhwfnw6hw806?alt=media&token=f9e2cc31-9aeb-46d3-a1ee-907a58ca02f4"
+    },
+    {
+      "id": 91,
+      "category": {
+        "id": 10,
+        "name": "Верхній одяг",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+      },
+      "brand": {
+        "id": 17,
+        "name": "G-Star",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F35kw85bkek3?alt=media&token=7bc92832-5251-4976-8560-8ebdf2832fe8"
+      },
+      "model": "-",
+      "size": "M",
+      "material": "97% хлопок, 3% eластан",
+      "description": "Приталений крій. Фірмова фурнітура з найменуванням бренду. Шкіряні деталі з тисненням логотипу бренду. Легкий Фейд. Виконана з м'якого, щільного і приємного на дотик бавовни. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Відомий асиметричний крій, властивий цьому бренду. Стильна і незвичайна річ. Чудова якість матеріалу, крою та виконання!",
+      "price": 57,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ft5yshm4or4?alt=media&token=714b5e7f-72f8-48c3-b26a-4086e9ea5810"
+    },
+    {
+      "id": 92,
+      "category": {
+        "id": 10,
+        "name": "Верхній одяг",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+      },
+      "brand": {
+        "id": 33,
+        "name": "Joop",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fdye5e8wxk99?alt=media&token=4e56c008-63e6-4f69-91b2-a33d1b90f8b1"
+      },
+      "model": "-",
+      "size": "52",
+      "material": "70% шерсть, 30% поліамід",
+      "description": "Колір \"Camel\" - хіт сезону. Прямий крій. Ґудзики з натурального, дорогого, благородного роги. Деталі з натурального шовку. Базова забарвлення, підійде до великої кількості образів. Красива підкладка і обробка кишень. Чудова якість матеріалу, крою та виконання!",
+      "price": 70,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0z12zf7ga3jh?alt=media&token=17f0b8be-6fec-4971-8f7f-44d7bf67ca76"
+    },
+    {
+      "id": 93,
+      "category": {
+        "id": 10,
+        "name": "Верхній одяг",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+      },
+      "brand": {
+        "id": 52,
+        "name": "Tommy Hilfiger",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5164zkx8enq?alt=media&token=4b38d8b3-6786-4a6a-aba2-906e3fb8b2ac"
+      },
+      "model": "-",
+      "size": "S",
+      "material": "100% хлопок",
+      "description": "Щільний і м'який бавовняний матеріал. Утеплена м'яким \"хутром\". Внутрішні кишені. \"Манжет хірурга\" -всі гудзики на манжеті розстібаються. Фірмова металева фурнітура з найменуванням бренду. Ґудзики з гравіюванням найменування бренду. Чудова якість матеріалу, крою та виконання!",
+      "price": 65,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fmktl6iz26oh?alt=media&token=e88bdc5c-05d3-4bb3-8947-034e20cf8941"
+    },
+    {
+      "id": 94,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 2,
+        "name": "7 for all mankind",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjbwns6hhcyh?alt=media&token=75a6c3ae-8273-4d68-82f9-9993d2f1e80a"
+      },
+      "model": "Chad",
+      "size": "34",
+      "material": "100% хлопок",
+      "description": "Звужений крій. Щільний денім преміум-класу. Анатомічне состаривание. Легкий \"Фейд\". Фірмова металева фурнітура з найменуванням бренду. Впізнавана вишивка на задніх кишенях.",
+      "price": 79,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fimb5bpdiy8?alt=media&token=eb182bd7-a9ef-499e-bdb8-380d6a0e9452"
+    },
+    {
+      "id": 95,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 28,
+        "name": "All Saints",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fp2ti5ky78j?alt=media&token=ab6d7dae-4654-4284-9128-0360719e1a5c"
+      },
+      "model": "Spitafields",
+      "size": "L",
+      "material": "100% шерсть",
+      "description": "Приталений крій. Легка шерсть чудовою вичинки. Філігранна вишивка логотипу на грудях. Цікавий крій задньої частини і плечових швів. Широка трикотажна гумка на манжетах і внизу дозволить речі краще \"сісти\" по фігурі, зафіксуватися в правильному положенні. Базова забарвлення сірий-меланж, підійде до великої кількості образів. Чудова якість матеріалу, крою та виконання!",
+      "price": 36,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fd06ecsqhrrr?alt=media&token=84e70f97-b57b-4541-bd1f-2e885f7fb933"
+    },
+    {
+      "id": 96,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 5,
+        "name": "Aglini",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fpgqsvqg7u8m?alt=media&token=e5e4707e-e010-4d3e-b33e-e3c77da67cbd"
+      },
+      "model": "Tib-40",
+      "size": "L",
+      "material": "98% хлопок, 2% eластан",
+      "description": "Стильна сорочка з деніму. Приталений крій. Тонка і пластична тканина з еластаном. Еластан в складі дозволяє речі краще тримати форму, менше м'ятися, що надзвичайно практично. Ручне состаривание. Метод найшвидшого забарвлення. Кокетка виконана з контрастного бавовняного твілла. Стильні гудзики пришиті \"пташиною лапкою\". Зроблено в Італії. Чудова якість матеріалу, крою та виконання!",
+      "price": 47,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjyws7jll8mb?alt=media&token=b7175db4-f1a7-49df-b4a2-12dc63fad07d"
+    },
+    {
+      "id": 97,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 46,
+        "name": "Levi's",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fac1537jzv2m?alt=media&token=d9fb5d04-9a3a-4dc4-9404-bde39f2266d0"
+      },
+      "model": "520",
+      "size": "S",
+      "material": "98% хлопок, 2% eластан",
+      "description": "\nЗвужений крій. Levi's - ікона джинсового стилю. Джинси, покликані служити довго. Для тих, кому важливо в джинсах добротність, зносостійкість і якість без \"надмірностей\". Гарний, глибокий \"Фейд\". 3-D складки. Шкіряний патч з тисненням ззаду. Базова забарвлення, підійде до великої кількості образів.",
+      "price": 50,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fsy445jm7ev?alt=media&token=43d1ee49-b9ba-4eca-aa9c-01c939e05b73"
+    },
+    {
+      "id": 98,
+      "category": {
+        "id": 6,
+        "name": "Джинси",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+      },
+      "brand": {
+        "id": 26,
+        "name": "Pionner",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F57kkntq8jmf?alt=media&token=a894358e-26db-4d98-b673-854a6c28ae10"
+      },
+      "model": "RANDO",
+      "size": "XL",
+      "material": "98% хлопок, 2% eластан",
+      "description": "У міру звужений крій. Щільний денім преміум-класу. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Фірмова металева фурнітура з найменуванням бренду. Гарний, шляхетний колір. Шкіряний патч з тисненням бренду.",
+      "price": 43,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Feggyl76n70n?alt=media&token=bd72e57d-0df6-4a09-9737-d41ce9534c51"
+    },
+    {
+      "id": 99,
+      "category": {
+        "id": 1,
+        "name": "Брюки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+      },
+      "brand": {
+        "id": 39,
+        "name": "Mac",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fxb032zccuoc?alt=media&token=a10bf4b3-20f3-4645-90fd-bb006fd42ba4"
+      },
+      "model": "Arne",
+      "size": "32",
+      "material": "98% хлопок, 2% eластан",
+      "description": "Колір \"Camel\" - хіт сезону. У міру звужений крій. Щільний денім преміум-класу. Еластан в складі дозволяє речі краще тримати форму, краще сідати по фігурі, менше м'ятися. Фірмова металева фурнітура з найменуванням бренду. Красива підкладка і обробка пояса. Шкіряний патч позаду.",
+      "price": 50,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3xto94owplu?alt=media&token=717af8d8-07cb-49bf-9f09-e67f1285023e"
+    },
+    {
+      "id": 100,
+      "category": {
+        "id": 3,
+        "name": "Джемпери",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+      },
+      "brand": {
+        "id": 23,
+        "name": "Pringle",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fiuyg4d10cx?alt=media&token=8f6fa825-5a0b-4657-9893-37341eb3b313"
+      },
+      "model": "-",
+      "size": "XL",
+      "material": "100% шерсть",
+      "description": "Лучшая шотландська шерсть. Найстаріший шотландський бренд прославився саме за рахунок вовняних виробів. Елітна італійська фурнітура \"RY\". Оригінальний крій \"швами назовні\". Зроблено в Шотландії. Чудова якість матеріалу, крою та виконання!",
+      "price": 79,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fz5d1knugac?alt=media&token=e87fd5ed-60b1-4c46-9f30-551f230eef53"
+    },
+    {
+      "id": 101,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 35,
+        "name": "Serge Blanco",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv31ze5nd6sl?alt=media&token=fee03fcb-fe12-4e99-98dc-a7b449a3c62b"
+      },
+      "model": "-",
+      "size": "XL",
+      "material": "100% хлопок",
+      "description": "Приталений крій. Виконана з приємного на дотик, якісного бавовни. Якісні та стильні нашивки. \"Листівці\" для зміцнення бокового шва. Красива внутрішня обробка манжет. філігранна вишивка",
+      "price": 45,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fkojv5ufncbe?alt=media&token=c13e6e44-76bc-4b41-94aa-77f0a12c3fc0"
+    },
+    {
+      "id": 102,
+      "category": {
+        "id": 5,
+        "name": "Сорочки",
+        "gender": "чоловіча",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+      },
+      "brand": {
+        "id": 3,
+        "name": "Muller Massmanufaktur",
+        "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fwx354sojin8?alt=media&token=c960b03d-0647-4ffb-a5eb-16411b374ce7"
+      },
+      "model": "-",
+      "size": "L",
+      "material": "100% хлопок",
+      "description": "риталений крій. Класичний і універсальний воріт \"Kent\". \"Французький манжет\" під запонку. Виконана щільного і приємно на дотик бавовни. Дорогі перламутрові ґудзики з устричної раковини. Базова забарвлення, підійде до великої кількості образів. Вертикальна смуга \"стрункішою\", візуально збільшуючи зростання.",
+      "price": 31,
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F4z0ly5ykqck?alt=media&token=afb1eb91-4c07-4f44-bd36-95020c9a1694"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Брюки",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+    },
+    {
+      "id": 2,
+      "name": "Аксесуари",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgpe7l454gc?alt=media&token=992821b7-0f62-44ef-bb49-9e6584fc6db5"
+    },
+    {
+      "id": 3,
+      "name": "Джемпери",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fb7pvujmtgoi?alt=media&token=371842c0-e870-4d0b-8968-6eba0f8a4edb"
+    },
+    {
+      "id": 5,
+      "name": "Сорочки",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+    },
+    {
+      "id": 6,
+      "name": "Джинси",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+    },
+    {
+      "id": 7,
+      "name": "Піджаки і Блейзери",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3asjprzdas1?alt=media&token=bfc095bc-9713-4080-a7d2-d89fb0c8a0ff"
+    },
+    {
+      "id": 8,
+      "name": "Костюми",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F97imebm6gk?alt=media&token=09a3f3eb-2eaa-46ea-a37c-47eabe9a0733"
+    },
+    {
+      "id": 9,
+      "name": "Футболки",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+    },
+    {
+      "id": 10,
+      "name": "Верхній одяг",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8d0gxnghbgy?alt=media&token=96cbfbf1-98dd-47f7-9e32-03e5a65a966d"
+    },
+    {
+      "id": 11,
+      "name": "Взуття",
+      "gender": "чоловіча",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Floppaw9jih8?alt=media&token=bd8115bf-0263-4b32-b684-e2dd250806a8"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Armani",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0ixod9fma43l?alt=media&token=53c8770f-0e22-4a63-b902-88072d8aaffe"
+    },
+    {
+      "id": 2,
+      "name": "7 for all mankind",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjbwns6hhcyh?alt=media&token=75a6c3ae-8273-4d68-82f9-9993d2f1e80a"
+    },
+    {
+      "id": 3,
+      "name": "Muller Massmanufaktur",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fwx354sojin8?alt=media&token=c960b03d-0647-4ffb-a5eb-16411b374ce7"
+    },
+    {
+      "id": 4,
+      "name": "Alexander McQueen",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fm3m6v10cxwo?alt=media&token=e510f782-7bfb-4f9d-adc7-9a508af92978"
+    },
+    {
+      "id": 5,
+      "name": "Aglini",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fpgqsvqg7u8m?alt=media&token=e5e4707e-e010-4d3e-b33e-e3c77da67cbd"
+    },
+    {
+      "id": 6,
+      "name": "Zonkey Boot",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F0rafa6p2393l?alt=media&token=087caa0a-1f98-4274-9d9b-517f3c8fd2f8"
+    },
+    {
+      "id": 7,
+      "name": "Marc Jacobs",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F99xgaq350qo?alt=media&token=d051eda4-1593-4b59-8670-437b88c43b70"
+    },
+    {
+      "id": 8,
+      "name": "Ralph Lauren",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fh00oe80lly?alt=media&token=c794ef50-6792-47ef-b152-cda78f0cf2f3"
+    },
+    {
+      "id": 9,
+      "name": "Dolce & Gabbana",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fq8evlm6757?alt=media&token=37846b49-8989-4d75-84d9-0cfe7177e190"
+    },
+    {
+      "id": 10,
+      "name": "Brioni",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fx61axoywf5a?alt=media&token=b0dd9565-c63a-452b-9a65-8b6080dbae0f"
+    },
+    {
+      "id": 11,
+      "name": "Gucci",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frlbb3n4p5rb?alt=media&token=6af1e0a9-d904-47e1-b801-284aa7c3f393"
+    },
+    {
+      "id": 12,
+      "name": "Ermenegildo Zegna",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa25hfqvmd6e?alt=media&token=2ffed28f-5346-44a5-b08d-4357ff12cc99"
+    },
+    {
+      "id": 13,
+      "name": "Gardeur",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fow77kx46kgo?alt=media&token=a08a888b-1240-4196-9ce4-6a97d6bfec65"
+    },
+    {
+      "id": 14,
+      "name": "Caliban",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F9fpru77pgyp?alt=media&token=44056b27-9ca5-4bae-9217-0c704bc41ed0"
+    },
+    {
+      "id": 15,
+      "name": "Brax",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F2twmww7okfk?alt=media&token=5f7a4fd9-a175-45ca-808b-f6c567eea9d1"
+    },
+    {
+      "id": 16,
+      "name": "Edwin",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fvmjvflmlarl?alt=media&token=eea41036-c220-442b-9d25-5b6853095677"
+    },
+    {
+      "id": 17,
+      "name": "G-Star",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F35kw85bkek3?alt=media&token=7bc92832-5251-4976-8560-8ebdf2832fe8"
+    },
+    {
+      "id": 18,
+      "name": "Hugo Boss",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F8gtulszet48?alt=media&token=1ea77e2f-284d-4ddd-af61-a454b9f72a65"
+    },
+    {
+      "id": 19,
+      "name": "Replay",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fegdooclczl?alt=media&token=fc96a895-dabf-431e-af63-7f8e9e958b03"
+    },
+    {
+      "id": 20,
+      "name": "Rene Lezard",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fex48lwgjbvk?alt=media&token=81e4ec14-e8c7-466a-a38c-e360d1aed802"
+    },
+    {
+      "id": 21,
+      "name": "Napapijri",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fhssua3rxlmt?alt=media&token=a233d400-fbca-46f5-a50f-8bd696ab1592"
+    },
+    {
+      "id": 22,
+      "name": "Oscar Jacobson",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fex3bcbxmkz?alt=media&token=f307059d-9042-4691-ac4c-ea011edb560e"
+    },
+    {
+      "id": 23,
+      "name": "Pringle",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fiuyg4d10cx?alt=media&token=8f6fa825-5a0b-4657-9893-37341eb3b313"
+    },
+    {
+      "id": 24,
+      "name": "Emmet",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F3e9oqj1qtoj?alt=media&token=9799ad59-1302-45c4-a399-94b4c606a579"
+    },
+    {
+      "id": 25,
+      "name": "Gaastra",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffaw79dx2n7a?alt=media&token=0da98176-16fb-4de8-9feb-877499d23559"
+    },
+    {
+      "id": 26,
+      "name": "Pionner",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F57kkntq8jmf?alt=media&token=a894358e-26db-4d98-b673-854a6c28ae10"
+    },
+    {
+      "id": 27,
+      "name": "Ben Sherman",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fidg6i3lys9?alt=media&token=6338d5cf-9a80-4759-9397-2544e0d47d26"
+    },
+    {
+      "id": 28,
+      "name": "All Saints",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fp2ti5ky78j?alt=media&token=ab6d7dae-4654-4284-9128-0360719e1a5c"
+    },
+    {
+      "id": 29,
+      "name": "Paul & Joe",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ffqqu0kgtlog?alt=media&token=4e2ea2af-2582-4949-a403-e5b8f3b28aa4"
+    },
+    {
+      "id": 30,
+      "name": "Belvest",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7cj8fxhursu?alt=media&token=12a86dd9-208e-46a7-8fb8-5aa77cb8d467"
+    },
+    {
+      "id": 31,
+      "name": "Christian Berg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fms1lxi35epb?alt=media&token=be4a2a5c-8226-4df1-846b-a877a91be56e"
+    },
+    {
+      "id": 32,
+      "name": "DU4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fc151ezxtr1b?alt=media&token=f77bfa8e-9949-42c0-a2fe-d8ccb6a51a46"
+    },
+    {
+      "id": 33,
+      "name": "Joop",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fdye5e8wxk99?alt=media&token=4e56c008-63e6-4f69-91b2-a33d1b90f8b1"
+    },
+    {
+      "id": 34,
+      "name": "Luigi Borrelli",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Frqf1356i8mq?alt=media&token=d857d939-61f6-4c2a-952b-ec538169d336"
+    },
+    {
+      "id": 35,
+      "name": "Serge Blanco",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv31ze5nd6sl?alt=media&token=fee03fcb-fe12-4e99-98dc-a7b449a3c62b"
+    },
+    {
+      "id": 36,
+      "name": "Daniel Hechter",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fv6u45g3cza?alt=media&token=a014260a-7df7-4256-bf22-58a0b2b2a089"
+    },
+    {
+      "id": 37,
+      "name": "Suitsupply",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa1bmdca60t?alt=media&token=a772a30d-bfb1-4788-80f2-06dde8586216"
+    },
+    {
+      "id": 38,
+      "name": "Drykorn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fj1wzsarsd8g?alt=media&token=6adbc779-04c9-4a28-9ee5-da20b78a5b03"
+    },
+    {
+      "id": 39,
+      "name": "Mac",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fxb032zccuoc?alt=media&token=a10bf4b3-20f3-4645-90fd-bb006fd42ba4"
+    },
+    {
+      "id": 40,
+      "name": "Massimo Dutti",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fr6qaxerroi?alt=media&token=880f54a8-fa67-43bb-9961-7d195f028367"
+    },
+    {
+      "id": 41,
+      "name": "Corneliani",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fndxajlr7pwc?alt=media&token=37501d3d-6db6-4801-98d8-502137d2a4ac"
+    },
+    {
+      "id": 42,
+      "name": "J.Lindeberg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F4p0mi0w8we?alt=media&token=4fd5b6e7-90b9-4144-bfd3-d353e423292b"
+    },
+    {
+      "id": 43,
+      "name": "McGregor",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fup6lkfg6yu?alt=media&token=be2964ac-745b-4ffd-b723-11ae3eb13eb2"
+    },
+    {
+      "id": 44,
+      "name": "Scotch & Soda",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fzuta6g09gzr?alt=media&token=4b024a5c-b090-4347-9c48-64db3c5d1baf"
+    },
+    {
+      "id": 45,
+      "name": "Jeckerson",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F1ewymcy42rv?alt=media&token=c522756d-f7b7-44df-8f85-156a8c6800be"
+    },
+    {
+      "id": 46,
+      "name": "Levi's",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fac1537jzv2m?alt=media&token=d9fb5d04-9a3a-4dc4-9404-bde39f2266d0"
+    },
+    {
+      "id": 47,
+      "name": "Strickland and Sons",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fktozdpsj0u?alt=media&token=dec4d9f5-124b-4a78-a7eb-77f6947bafbc"
+    },
+    {
+      "id": 48,
+      "name": "Take Two",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F617c9cgcbf?alt=media&token=4b32bc29-23b9-4ee3-8f4b-473080996bb7"
+    },
+    {
+      "id": 49,
+      "name": "Roy Rogers",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fsitc4p9i0gf?alt=media&token=a131f0c1-423f-4e69-8fb5-196185675111"
+    },
+    {
+      "id": 50,
+      "name": "Timberland",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjefxu0vfwus?alt=media&token=2a34a518-ece9-4570-aaa9-03d6531bf632"
+    },
+    {
+      "id": 51,
+      "name": "Gravati",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgze4rcwkan?alt=media&token=dac3485c-8fff-4066-8576-294e1989d192"
+    },
+    {
+      "id": 52,
+      "name": "Tommy Hilfiger",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F5164zkx8enq?alt=media&token=4b38d8b3-6786-4a6a-aba2-906e3fb8b2ac"
+    },
+    {
+      "id": 53,
+      "name": "Gant",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu2blorws2qo?alt=media&token=af05d14c-1b3b-4c59-b3d4-1df40649902e"
+    },
+    {
+      "id": 54,
+      "name": "Closed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fcgqw75tpmsv?alt=media&token=991846d2-bd2f-4dca-bd80-8a0281164594"
+    }
+  ],
+  "quests": [
+    {
+      "id": 1,
+      "who": "Admin Adminovich",
+      "topic": "Привіт",
+      "message": "Привіт Усім!",
+      "date": "2019-08-23T07:20:59.433Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "products": [
+        {
+          "id": 0,
+          "product": {
+            "id": 1,
+            "category": {
+              "id": 1,
+              "name": "Брюки",
+              "gender": "чоловіча",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fbs8sr9g1gao?alt=media&token=266cb27b-0741-429a-9636-258955e52fb2"
+            },
+            "brand": {
+              "id": 2,
+              "name": "7 for all mankind",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjbwns6hhcyh?alt=media&token=75a6c3ae-8273-4d68-82f9-9993d2f1e80a"
+            },
+            "model": "Slimmy chino",
+            "size": "32",
+            "material": "88% хлопок, 10% поліестер, 2% еластан",
+            "description": "Дорога лінія бренду - \"Luxe Perfomance\". Звужений крій. Виконано з м'якого, щільного і приємного на дотик бавовни преміум-класу. Фірмова металева фурнітура з найменуванням бренду. Нашивка з логотипом бренду на задній кишені. Знаменитий американський бренд, що спеціалізується в основному на джинсах і брюках.",
+            "price": 105,
+            "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Faw6fyv6qd2t?alt=media&token=9c54e6ae-e236-42e4-b14f-3816a94b082d"
+          },
+          "count": 2
+        },
+        {
+          "id": 1,
+          "product": {
+            "id": 96,
+            "category": {
+              "id": 5,
+              "name": "Сорочки",
+              "gender": "чоловіча",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fu70nwyoegd?alt=media&token=2249030f-7b1b-4288-9e6d-35c8ed2c74f0"
+            },
+            "brand": {
+              "id": 5,
+              "name": "Aglini",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fpgqsvqg7u8m?alt=media&token=e5e4707e-e010-4d3e-b33e-e3c77da67cbd"
+            },
+            "model": "Tib-40",
+            "size": "L",
+            "material": "98% хлопок, 2% eластан",
+            "description": "Стильна сорочка з деніму. Приталений крій. Тонка і пластична тканина з еластаном. Еластан в складі дозволяє речі краще тримати форму, менше м'ятися, що надзвичайно практично. Ручне состаривание. Метод найшвидшого забарвлення. Кокетка виконана з контрастного бавовняного твілла. Стильні гудзики пришиті \"пташиною лапкою\". Зроблено в Італії. Чудова якість матеріалу, крою та виконання!",
+            "price": 47,
+            "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjyws7jll8mb?alt=media&token=b7175db4-f1a7-49df-b4a2-12dc63fad07d"
+          },
+          "count": 1
+        },
+        {
+          "id": 2,
+          "product": {
+            "id": 87,
+            "category": {
+              "id": 11,
+              "name": "Взуття",
+              "gender": "чоловіча",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Floppaw9jih8?alt=media&token=bd8115bf-0263-4b32-b684-e2dd250806a8"
+            },
+            "brand": {
+              "id": 51,
+              "name": "Gravati",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fgze4rcwkan?alt=media&token=dac3485c-8fff-4066-8576-294e1989d192"
+            },
+            "model": "14269",
+            "size": "40",
+            "material": "100% шкіра",
+            "description": "Дербі найстарішої міланської майстерні з пошиття взуття. Черевики повністю зроблені вручну з кращої шкіри, одними з кращих майстрів. Шкіряна підошва прикріплена НЕ-клейовим способом дозволить нозі дихати, створить правильний, комфортний мікро-клімат всередині. Плетені шкіра красиво поєднується з гладкою. Еталонне виконання. Зроблені в Італії.",
+            "price": 159,
+            "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fayv9z2x3qp?alt=media&token=44d299ad-6803-4cf9-9690-79ee1beae600"
+          },
+          "count": 1
+        },
+        {
+          "id": 3,
+          "product": {
+            "id": 77,
+            "category": {
+              "id": 9,
+              "name": "Футболки",
+              "gender": "чоловіча",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F7dwqr6tnti5?alt=media&token=1fef4814-f446-4069-9895-aef448687e56"
+            },
+            "brand": {
+              "id": 9,
+              "name": "Dolce & Gabbana",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fq8evlm6757?alt=media&token=37846b49-8989-4d75-84d9-0cfe7177e190"
+            },
+            "model": "RT0947",
+            "size": "M",
+            "material": "100% хлопок",
+            "description": "Приталений крій. Красива оздоблення ворота, рукавів і планки. Філігранна вишивка логотипу на рукаві. Закрита застібка. Кращий хлопок \"піку\" італійського виробництва.",
+            "price": 57,
+            "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2F79dztih80x4?alt=media&token=1f50e7d5-0b61-4d47-8e03-c373499dcc5f"
+          },
+          "count": 1
+        }
+      ],
+      "fullName": "Ovchuk Olexander",
+      "phone": "+38 (096) 152-93-97",
+      "adress": "m.Lviv, st.Medovoi Pechery, 39",
+      "suma": 473
+    },
+    {
+      "id": 2,
+      "products": [
+        {
+          "id": 0,
+          "product": {
+            "id": 94,
+            "category": {
+              "id": 6,
+              "name": "Джинси",
+              "gender": "чоловіча",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fa34t4zuxtcu?alt=media&token=6ebe5fae-9be3-4af4-b446-628f75cca472"
+            },
+            "brand": {
+              "id": 2,
+              "name": "7 for all mankind",
+              "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fjbwns6hhcyh?alt=media&token=75a6c3ae-8273-4d68-82f9-9993d2f1e80a"
+            },
+            "model": "Chad",
+            "size": "34",
+            "material": "100% хлопок",
+            "description": "Звужений крій. Щільний денім преміум-класу. Анатомічне состаривание. Легкий \"Фейд\". Фірмова металева фурнітура з найменуванням бренду. Впізнавана вишивка на задніх кишенях.",
+            "price": 79,
+            "image": "https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Fimb5bpdiy8?alt=media&token=eb182bd7-a9ef-499e-bdb8-380d6a0e9452"
+          },
+          "count": 1
+        }
+      ],
+      "fullName": "sasha ovchuk",
+      "phone": "+38 (068) 316-18-99",
+      "adress": "m.Rivne",
+      "suma": 79
+    }
+  ]
+}

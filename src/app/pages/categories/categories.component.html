@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="wrapper">
+        <div class="form-group">
+            <div class="head">
+                <div class="block1">
+                    <h2>Категорії:</h2>
+                    <p class="result">Знайдено результатів: {{(adminCategories | filter: search)?.length}}</p>
+                </div>
+                <div class="block2">
+                    <input type="text" class="form-control" [(ngModel)]="search" name="search"
+                        placeholder="пошук по категорії..">
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="block" [routerLink]="['sub-categories']"
+                *ngFor="let category of adminCategories | filter: search | paginate: { itemsPerPage: 12, currentPage: p }; let i=index"
+                fragment="{{category.name}}">
+                <div class="img">
+                    <img [src]="category.image" class="imga" alt="">
+                </div>
+                <h3>{{category.name}}</h3>
+            </div>
+        </div>
+        <div class="paginator">
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+    </div>
+</div>

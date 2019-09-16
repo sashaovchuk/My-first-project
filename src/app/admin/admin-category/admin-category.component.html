@@ -1,0 +1,75 @@
+<form #myForm="ngForm" novalidate>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="categoryName">Назва категорії</label>
+                <input [(ngModel)]="categoryName" name="categoryName" type="text" class="form-control" id="categoryName"
+                    required>
+            </div>
+            <div class="col-sm-6">
+                <label for="categoryGender">Стать</label>
+                <input [(ngModel)]="categoryGender" name="categoryGender" type="text" class="form-control"
+                    id="categoryGender" required>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="custom-file">
+            <input (change)="upload($event)" accept=".jpg,.png.,jpeg" type="file" class="custom-file-input"
+                id="categoryImage" required>
+            <label class="custom-file-label" for="categoryImage">Виберіть файл...</label>
+        </div>
+    </div>
+    <div class="progress mt-2">
+        <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar"
+            [style.width]="(uploadProgress | async) + '%'" [attr.aria-valuenow]="(uploadProgress | async)"
+            aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div *ngIf="downloadURL | async; let downloadSrc" class="alert alert-secondary" role="alert">
+        Файл завантажено: <a [href]="downloadSrc">{{downloadSrc}}</a>
+    </div>
+    <div class="btn-group" role="group" *ngIf="uploadState | async; let state">
+        <button type="button" class="btn btn-secondary" (click)="task.pause()"
+            [disabled]="state === 'paused'">Пауза</button>
+        <button type="button" class="btn btn-secondary" (click)="task.cancel()"
+            [disabled]="!(state === 'paused' || state === 'running')">Відмінити</button>
+        <button type="button" class="btn btn-secondary" (click)="task.resume()"
+            [disabled]="state === 'running'">Продовжити</button>
+    </div>
+    <button [disabled]="myForm.invalid" *ngIf="!editStatus" (click)="isAddCategory()" type="button"
+        class="btn btn-secondary btn-block">Додати категорію</button>
+    <button *ngIf="editStatus" (click)="isSaveEditCategory()" type="button" class="btn btn-secondary btn-block">Зберегти
+        зміни</button>
+</form>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <th>#</th>
+        <th>Назва</th>
+        <th>Стать</th>
+        <th>Фото</th>
+        <th>Змінити</th>
+        <th>Видалити</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let category of adminCategories | paginate: { itemsPerPage: 10, currentPage: p }; let i=index">
+            <td>{{i+1}}</td>
+            <td>{{category.name}}</td>
+            <td>{{category.gender}}</td>
+            <td>
+                <img [src]="category.image" width="50px" alt="">
+            </td>
+            <td>
+                <button (click)="isEditCategory(category)" class="btn btn-light text-black"><i
+                        class="fa fa-pen"></i></button>
+            </td>
+            <td>
+                <button (click)="isDeleteCategory(category)" class="btn btn-light text-black"><i
+                        class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="paginator">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

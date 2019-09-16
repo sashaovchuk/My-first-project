@@ -1,0 +1,22 @@
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <th>#</th>
+        <th>П.І.Б</th>
+        <th>Email</th>
+        <th>Видалити</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let sub of subscriber | paginate: { itemsPerPage: 10, currentPage: p }; let i=index">
+            <td>{{i+1}}</td>
+            <td>{{sub.fullName}}</td>
+            <td>{{sub.email}}</td>
+            <td>
+                <button (click)="isDeleteSubscribe(sub.id)" class="btn btn-light text-black"><i
+                        class="fa fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="paginator">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

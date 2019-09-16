@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Heebo Bold';
+    src: url(../../shared/fonts/heebo/Heebo-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Heebo Regular';
+    src: url(../../shared/fonts/heebo/Heebo-Regular.ttf);
+}
+
+h2, h3 {
+    font-family: 'Heebo Bold';
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 50%;
+}
+
+.main-img {
+    width: 370px;
+    height: 300px;
+}
+
+.block2 {
+    width: 50%;
+}
+
+.space-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.categ {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.categ:hover {
+    text-decoration: underline;
+    text-decoration-color: #888;
+}
+
+.categg {
+    font-family: 'Heebo Regular';
+}
+
+.categg:hover {
+    text-decoration: underline;
+    text-decoration-color: #888;
+}
+
+.about-desc {
+    margin: 20px 0 0 0;
+}
+
+.desc {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333;
+}
+
+.price {
+    margin: 30px 0;
+}
+
+.wid {
+    width: 80px;
+}
+
+.marg {
+    margin-left: 30px;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+}
+
+.btn-light {
+    margin-right: 5px;
+}
+
+.distance {
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+.center {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 21%;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.imga {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imga:focus {
+    outline: 0;
+}
+
+.categ:focus {
+    outline: 0;
+}
+
+.categg:focus {
+    outline: 0;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    .block1 {
+        width: 40%;
+    }
+    .block2 {
+        width: 60%
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .block1 {
+        width: 43%;
+    }
+    .block2 {
+        width: 55%
+    }
+    .main-img {
+        width: 300px;
+        height: 250px;
+    }
+    .marg {
+        margin-left: 0;
+        float: right;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    .categ {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .head {
+        flex-wrap: wrap;
+    }
+    .block1 {
+        width: 100%;
+    }
+    .block2 {
+        width: 100%
+    }
+    .main-img {
+        width: 340px;
+        height: 280px;
+    }
+    .marg {
+        margin-left: 0;
+        float: right;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    .categ {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .block {
+        width: 47%;
+    }
+    .about-subcat {
+        width: 83%;
+        margin-left: 10%;
+    }
+    .img {
+        text-align: center;
+    }
+    .imga {
+        width: 190px;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .head {
+        flex-wrap: wrap;
+    }
+    .block1 {
+        width: 100%;
+    }
+    .block2 {
+        width: 100%
+    }
+    .main-img {
+        width: 250px;
+        height: 200px;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    .categ {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .block {
+        width: 97%;
+    }
+    .about-subcat {
+        width: 83%;
+        margin-left: 15%;
+    }
+    .img {
+        text-align: center;
+    }
+    .imga {
+        width: 200px;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button-groups {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .add {
+        width: 100%;
+    }
+    .add button {
+        width: 100%;
+    }
+    .button-groups .btn-light {
+        width: 24%;
+        margin: 0;
+    }
+    .marg {
+        margin: 0;
+    }
+    .wid {
+        width: 45%!important;
+        margin: 0 3.5%!important;
+    }
+}

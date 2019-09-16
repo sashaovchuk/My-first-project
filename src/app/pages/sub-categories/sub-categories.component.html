@@ -1,0 +1,58 @@
+<div class="container-fluid">
+    <div class="wrapper">
+        <div class="head">
+            <div class="block1">
+                <h2>{{currentCategory}}:</h2>
+                <p class="result">Знайдено результатів:
+                    {{(adminProducts | filterProdCatName: currentCategory | orderBy: order:reverse | filterProdBrName: search | filterRange: minValue: maxValue)?.length}}
+                </p>
+            </div>
+            <div class="block2">
+                <div class="form-group">
+                    <input [(ngModel)]="search" name="search" class="form-control" placeholder="пошук по бренду..">
+                </div>
+            </div>
+        </div>
+        <div class="boddy">
+            <div class="direction1">
+                <div class="list">
+                    <div class="block"
+                        *ngFor="let product of adminProducts | filterProdCatName: currentCategory | orderBy: order:reverse | filterProdBrName: search | filterRange: minValue: maxValue | paginate: { itemsPerPage: 12, currentPage: p }; let i=index">
+                        <div class="img" [routerLink]="[ '/products', product.id ]" fragment="1">
+                            <img [src]="product.image" class="imga" alt="">
+                        </div>
+                        <div class="about-subcat">
+                            <div class="decor">
+                                <h4 [routerLink]="[ '/products', product.id ]" fragment="1">{{product.brand.name}}
+                                    {{product.model}}</h4>
+                                <div class="categ">{{product.category.name}}</div>
+                            </div>
+                            <p class="price">{{product.price | currencys}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="direction2 float">
+                <h4>Налаштування для легкого пошуку:</h4>
+                <div class="form-group">
+                    <label for="serverStatus">Сортувати по:</label>
+                    <select [(ngModel)]="filteredStatus" name="filteredStatus" id="serverStatus" class="custom-select"
+                        (change)="setOrder(filteredStatus)">
+                        <option *ngFor="let server of servers; let i=index" [ngValue]="server">
+                            {{server.name}}
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="price">Виберіть ціну:</label>
+                    <div class="custom-slider">
+                        <ng5-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ng5-slider>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paginator">
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+    </div>
+</div>

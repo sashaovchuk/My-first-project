@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="wrapper">
+        <div class="form-group">
+            <div class="head">
+                <div class="block1">
+                    <h2>Бренди:</h2>
+                    <p class="result">Знайдено результатів: {{(adminBrands | filterBrand : searchBrand)?.length}}</p>
+                </div>
+                <div class="block2">
+                    <input type="text" class="form-control" [(ngModel)]="searchBrand" name="searchBrand"
+                        placeholder="пошук по бренду..">
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="block" [routerLink]="['subbrands']"
+                *ngFor="let brand of adminBrands | filterBrand : searchBrand | paginate: { itemsPerPage: 12, currentPage: p }; let i=index"
+                fragment="{{brand.name}}">
+                <div class="img">
+                    <img [src]="brand.image" class="imga" alt="">
+                </div>
+                <h3>{{brand.name}}</h3>
+            </div>
+        </div>
+        <div class="paginator">
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+    </div>
+</div>

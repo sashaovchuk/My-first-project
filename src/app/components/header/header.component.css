@@ -1,0 +1,396 @@
+@font-face {
+    font-family: 'BombshellPro';
+    src: url(../../shared/fonts/BombshellPro.ttf);
+}
+
+@font-face {
+    font-family: 'LeoHand';
+    src: url(../../shared/fonts/LeoHand/LeoHand.ttf);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 109;
+}
+
+.header-menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+mat-toolbar {
+    height: inherit;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.rows {
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    width: 95%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+}
+
+.logotype {
+    width: 320px;
+    margin: 15px 0 0 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+    font-family: 'BombshellPro';
+}
+
+.prologo {
+    width: 320px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 14px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.example-spacer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-desktop {
+    display: block;
+}
+
+.prava {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'LeoHand';
+}
+
+.menu {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    list-style-type: none;
+    height: 30px;
+    margin: 0px 0px 0px 20px;
+    transition: 0.5s;
+}
+
+.menu-items {
+    list-style-type: none;
+    height: 30px;
+    margin: 0px 0px 0px 20px;
+    transition: 0.5s;
+}
+
+.menu-link {
+    display: block;
+    width: inherit;
+    height: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu-link:hover {
+    color: lightgray;
+}
+
+.icons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.example-icon {
+    padding: 0 20px;
+}
+
+.example-icon a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.example-icon a:hover {
+    color: lightgray;
+}
+
+button:focus {
+    outline: none!important;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.mat-menu-item {
+    height: 30px;
+}
+
+input.ng-touched.ng-invalid {
+    border-color: #dc3545;
+}
+
+div.validation-error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+th, td {
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.disp{
+    display: block;
+}
+
+.modal {
+    outline: 5000px solid rgba(0, 0, 0, .5);
+}
+
+.modal-dialog {
+    outline: 1000px solid rgba(0, 0, 0, 0.5);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 97px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    min-height: 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: lightgray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    .header-menu {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid gray;
+    }
+    .rows {
+        height: inherit;
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main-menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .header-menu {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid gray;
+    }
+    .rows {
+        height: inherit;
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main-menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .rows {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main-menu {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+    }
+    .menu-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+    }
+    .logotype {
+        width: 290px;
+        margin: 15px 0 0 0;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+        color: black;
+    }
+    .prologo {
+        width: 290px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 14px;
+        color: gray;
+        text-transform: uppercase;
+    }
+    .icons button {
+        height: 26px!important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header-menu {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid gray;
+    }
+    .rows {
+        height: inherit;
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-menu {
+        width: 100%;
+    }
+    .logotype {
+        width: 100%;
+        margin: 15px 0 0 0;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 30px;
+        color: black;
+    }
+    .prologo {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 14px;
+        color: gray;
+        text-transform: uppercase;
+    }
+    .main-menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+    }
+    .menu-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+    }
+    .disp{
+        display: none;
+    }
+    .icons {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons button {
+        height: 20px!important;
+    }
+    .menu-items {
+        list-style-type: none;
+        height: 15px;
+        margin: 0px 0px 0px 20px;
+        transition: 0.5s;
+    }
+    .menu-link {
+        display: block;
+        width: inherit;
+        height: inherit;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: center;
+        line-height: 15px;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+}

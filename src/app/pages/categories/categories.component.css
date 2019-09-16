@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'Heebo Bold';
+    src: url(../../shared/fonts/heebo/Heebo-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Heebo Regular';
+    src: url(../../shared/fonts/heebo/Heebo-Regular.ttf);
+}
+
+h2 {
+    font-family: 'Heebo Bold';
+}
+
+h3 {
+    font-family: 'Heebo Regular';
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list {
+    margin: 20px auto 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.head {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+.block1 {
+    width: 50%;
+}
+
+.result {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.block2 {
+    width: 18%;
+}
+
+.block {
+    width: 21%;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.block :hover {
+    text-decoration: underline;
+    text-decoration-color: #888;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.price {
+    text-align: right;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.imga {
+    width: 100%;
+}
+
+.img:hover {
+    box-shadow: 0 0px 2px gray;
+    transform: scale(1.1);
+}
+
+.paginator {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.block:focus {
+    outline: 0;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    h2 {
+        font-size: 23px
+    }
+    .result {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #888;
+    }
+    .block2 {
+        width: 22%;
+    }
+    h3 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .img {
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .imga {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    h2 {
+        font-size: 22px
+    }
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .list {
+        margin: 20px auto 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .head {
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    .block1 {
+        width: 50%;
+    }
+    .result {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #888;
+    }
+    .block2 {
+        width: 32%;
+    }
+    .block {
+        width: 22%;
+        margin-bottom: 20px;
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+    }
+    .block :hover {
+        text-decoration: underline;
+        text-decoration-color: #888;
+    }
+    h3 {
+        font-size: 19px;
+        width: 100%;
+        text-align: center;
+    }
+    .price {
+        text-align: right;
+    }
+    .img {
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .imga {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h2 {
+        font-size: 21px
+    }
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .list {
+        margin: 15px auto 40px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .head {
+        margin: 25px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    .block1 {
+        width: 100%;
+    }
+    .result {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #888;
+    }
+    .block2 {
+        width: 50%;
+    }
+    .block {
+        width: 50%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .block :hover {
+        text-decoration: underline;
+        text-decoration-color: #888;
+    }
+    h3 {
+        font-size: 19px;
+        width: 100%;
+        text-align: center;
+    }
+    .price {
+        text-align: right;
+    }
+    .img {
+        width: 100%;
+        text-align: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .imga {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    h2 {
+        font-size: 21px
+    }
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .list {
+        margin: 15px auto 30px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .head {
+        margin: 15px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    .block1 {
+        width: 100%;
+    }
+    .result {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+    }
+    .block2 {
+        width: 70%;
+    }
+    .block {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .block :hover {
+        text-decoration: underline;
+        text-decoration-color: #888;
+    }
+    h3 {
+        font-size: 19px;
+        width: 100%;
+        text-align: center;
+    }
+    .img {
+        width: 100%;
+        text-align: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .imga {
+        width: 200px;
+    }
+}

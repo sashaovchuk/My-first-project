@@ -1,0 +1,298 @@
+<header>
+    <div class="header-menu">
+        <div class="wrap">
+            <mat-toolbar>
+                <mat-toolbar-row class="rows">
+                    <div class="logo-menu">
+                        <a href="#" class="menu-link">
+                            <p class="logotype">Garment District</p>
+                            <p class="prologo">Комісійний магазин</p>
+                        </a>
+                    </div>
+                    <div class="main-menu">
+                        <div class="example-spacer">
+                            <nav class="menu-desktop">
+                                <ul class="menu">
+                                    <li class="menu-item" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="home">Home</a>
+                                    </li>
+                                    <li class="menu-item dropdown" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="categories">Categories</a>
+                                        <div class="dropdown-content">
+                                            <a *ngFor="let category of adminCategories" class="menu-link"
+                                                [routerLink]="['/categories/sub-categories']"
+                                                fragment="{{category.name}}">{{category.name}}</a>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="brands">Brands</a>
+                                    </li>
+                                    <li class="menu-item" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="about">About</a>
+                                    </li>
+                                    <li class="menu-item" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="contacts">Blog</a>
+                                    </li>
+                                    <li *ngIf="who==='Admin Adminovich'" class="menu-item" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="admin">Admin</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="icons">
+                            <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon"
+                                data-target="#Login" (click)="signin()"><a>person</a>
+                            </mat-icon>
+                            <mat-icon *ngIf="who===settings" class="example-icon disp" (click)="onEdit()" data-toggle="modal"
+                                data-target="#addModal">
+                                <a>settings_applications</a>
+                            </mat-icon>
+                            <mat-icon class="example-icon" [matBadge]="get()" matBadgeColor="success"
+                                [matBadgeHidden]="check" aria-hidden="false" aria-label="Example heart icon"><a
+                                    routerLink="order">shopping_cart</a>
+                            </mat-icon>
+                            <mat-icon class="example-icon menu-mobile" [matMenuTriggerFor]="menu"><a>menu</a></mat-icon>
+                            <mat-menu #menu="matMenu">
+                                <button mat-menu-item>
+                                    <li class="menu-items" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="home">Home</a>
+                                    </li>
+                                </button>
+                                <button mat-menu-item>
+                                    <li class="menu-items" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="categories">Categories</a>
+                                    </li>
+                                </button>
+                                <button mat-menu-item>
+                                    <li class="menu-items" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="brands">Brands</a>
+                                    </li>
+                                </button>
+                                <button mat-menu-item>
+                                    <li class="menu-items" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="about">About</a>
+                                    </li>
+                                </button>
+                                <button mat-menu-item>
+                                    <li class="menu-items" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="contacts">Blog</a>
+                                    </li>
+                                </button>
+                                <button *ngIf="who==='Admin Adminovich'" mat-menu-item>
+                                    <li *ngIf="who==='Admin Adminovich'" class="menu-items" routerLinkActive="active">
+                                        <a class="menu-link" routerLink="admin">Admin</a>
+                                    </li>
+                                </button>
+                            </mat-menu>
+                        </div>
+                    </div>
+                </mat-toolbar-row>
+            </mat-toolbar>
+        </div>
+    </div>
+</header>
+<div class="modal" id="Login" tabindex="-1" role="dialog" style="display: none; position: absolute; height: 700px"
+    aria-modal="true">
+    <div id="opas" class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form #myForm="ngForm" autocomplete="off" id="form1" style="display: block;">
+                    <div class="form-group">
+                        <label>Логін</label>
+                        <input type="text" class="form-control" id="logg" aria-describedby="loginHelp"
+                            placeholder="Введіть логін" [(ngModel)]="log" name="log" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Пароль</label>
+                        <input type="password" class="form-control" id="passs" placeholder="Введіть пароль"
+                            [(ngModel)]="pass" name="pass" required>
+                    </div>
+                    <p [ngClass]="who===''? 'text-danger':'text-success'" style="font-size: 13px;" *ngIf="who===''">
+                        Невірний логін або пароль</p>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Запам'ятати мене</label>
+                    </div>
+                    <button type="button" class="btn btn-success marg" (click)="faind()">Вхід</button>
+                    <button type="button" class="btn btn-primary" (click)="reestr()"
+                        style="margin-left: 10px;">Зареєструватися</button>
+                </form>
+                <form #myForm="ngForm" autocomplete="off" (submit)="onRegister(myForm)" id="form2"
+                    style="display: none;">
+                    <input type="hidden" #id="ngModel" name="id" [(ngModel)]="usersService.formUser.id"
+                        class="form-control">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Ім'я</label>
+                                <input type="text" class="form-control" placeholder="Введіть Ваше ім'я.."
+                                    #fname="ngModel" name="fname" [(ngModel)]="usersService.formUser.fname" required>
+                                <div *ngIf="fname.invalid && fname.touched" class="validation-error">Будь ласка введіть
+                                    Ваше ім'я
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Прізвище</label>
+                                <input type="text" class="form-control" placeholder="Введіть Ваше прізвище.."
+                                    #sname="ngModel" name="sname" [(ngModel)]="usersService.formUser.sname" required>
+                                <div *ngIf="sname.invalid && sname.touched" class="validation-error">Будь ласка введіть
+                                    Ваше прізвище
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Логін</label>
+                        <input type="text" class="form-control" placeholder="Введіть логін.." #login="ngModel"
+                            name="login" [(ngModel)]="usersService.formUser.login" required>
+                        <div *ngIf="login.invalid && login.touched" class="validation-error">Будь ласка введіть логін
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Пароль</label>
+                        <input type="password" class="form-control" placeholder="Введіть пароль.." #password="ngModel"
+                            name="password" [(ngModel)]="usersService.formUser.password" required>
+                        <div *ngIf="password.invalid && password.touched" class="validation-error">Будь ласка введіть
+                            пароль
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Введіть номер телефону:</label>
+                        <input id="phone" type="text" #phoneControl="ngModel" name="phone"
+                            placeholder="+38 (012) 345-67-89" [textMask]="{mask: phoneMask}" class="form-control"
+                            #phone="ngModel" name="phone" [(ngModel)]="usersService.formUser.phone" required>
+                        <div *ngIf="phone.invalid && phone.touched" class="validation-error" class="validation-error">
+                            Введіть Ваш номер телефону</div>
+                    </div>
+                    <div class="form-group">
+                        <label>Введіть Вашу aдресу:</label>
+                        <input type="text" class="form-control" placeholder="Адреса тут.." #adress="ngModel"
+                            name="adress" [(ngModel)]="usersService.formUser.adress" required>
+                        <div *ngIf="adress.invalid && adress.touched" class="validation-error">
+                            Будь ласка введіть адресу</div>
+                    </div>
+                    <button type="submit" [disabled]="myForm.invalid" class="btn btn-primary"
+                        (click)="finReestr()">Підтвердити</button>
+                    <button type="button" class="btn btn-primary" style="margin-left: 10px;"
+                        (click)="finReestr()">Скасувати</button>
+                </form>
+                <form id="form3" style="display: none;">
+                    <button type="button" class="btn btn-success form-control marg" (click)="exit()">Вийти</button>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" (click)="exitModal()">Закрити</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addModalLabel">Дані про замовлення:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Ваше прізвище та ім'я:</label>
+                        <input type="text" class="form-control" [value]="settings" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Ваш номер телефону:</label>
+                        <input type="text" [textMask]="{mask: phoneMask}" placeholder="+38 (012) 345-67-89" class="form-control" [value]="ph" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Введіть Вашу aдресу:</label>
+                        <input type="text" class="form-control" placeholder="Ваша адреса" [value]="ad" readonly>
+                    </div>
+                    <button type="button" data-toggle="modal" data-target="#isHistory"
+                        class="btn btn-secondary form-control" (click)="haveHistory()">Історія покупок</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="isHistory" tabindex="-1" role="dialog" aria-labelledby="isHistoryLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="isHistoryLabel">Дані про замовлення:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table *ngIf="checker" class="table table-hover">
+                    <thead class="thead-dark">
+                        <th>Номер замовлення</th>
+                        <th>Замовлення</th>
+                        <th>Сума замовлення</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let ord of newAdminOrders; let i=index">
+                            <td *ngIf="ord.fullName==who">{{i+1}}</td>
+                            <td *ngIf="ord.fullName==who">
+                                <button class="btn btn-secondary" data-toggle="modal" data-target="#detailHistory"
+                                    (click)="more(ord.products)">Детальніше</button>
+                            </td>
+                            <td *ngIf="ord.fullName==who">{{ord.suma | currencys}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="prava" *ngIf="!checker">Ваша історія замовлень відсутня!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="detailHistory" tabindex="-1" role="dialog" aria-labelledby="detailHistoryLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailHistoryLabel">Дані про замовлення:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead class="thead-dark">
+                            <th>#</th>
+                            <th>Фото</th>
+                            <th>Продукт</th>
+                            <th>Кількість</th>
+                            <th>Ціна/1</th>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let ord of newOrder; let i=index">
+                                <td>{{i+1}}</td>
+                                <td>
+                                    <img [src]="ord.product.image" width="50px" alt="">
+                                </td>
+                                <td>{{ord.product.brand.name}} {{ord.product.model}}</td>
+                                <td>{{ord.count}}</td>
+                                <td>{{ord.product.price | currencys}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                </div>
+            </div>
+        </div>
+    </div>

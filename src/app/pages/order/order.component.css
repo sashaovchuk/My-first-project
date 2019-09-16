@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Heebo Regular';
+    src: url(../../shared/fonts/heebo/Heebo-Medium.ttf);
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+.block1 {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Heebo Regular';
+    margin-bottom: .5rem;
+}
+
+.result {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.wid {
+    width: 80px;
+}
+
+button.wid {
+    margin: 0 5px!important;
+}
+
+.table {
+    margin: 30px 0;
+}
+
+th, td {
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.request {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.pravo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 65%;
+}
+
+.block2 {
+    width: 35%;
+}
+
+.about-request {
+    width: 30%;
+}
+
+h4 {
+    font-family: 'Heebo Regular';
+    margin-bottom: .5rem;
+}
+
+.hov {
+    position: relative;
+    padding: 0;
+}
+
+.hov::before {
+    content: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ferror.png?alt=media&token=02df3acc-d9ee-47d4-a346-fc24f4b487b2);
+    display: none;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+tr:hover .hov::before {
+    display: flex;
+}
+
+.details {
+    display: none;
+}
+
+.about-prod {
+    display: table-cell;
+}
+
+input.ng-touched.ng-invalid {
+    border-color: #dc3545;
+}
+
+div.validation-error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1130px) {
+    .about-request {
+        width: 36%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .hov::before {
+        content: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ferror.png?alt=media&token=02df3acc-d9ee-47d4-a346-fc24f4b487b2);
+        display: flex;
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .result {
+        font-size: 14px;
+    }
+    .about-request {
+        width: 45%;
+    }
+    h4 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .hov::before {
+        content: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ferror.png?alt=media&token=02df3acc-d9ee-47d4-a346-fc24f4b487b2);
+        display: flex;
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .result {
+        font-size: 14px;
+    }
+    .details {
+        display: table-cell;
+    }
+    .about-prod {
+        display: none;
+    }
+    .about-request {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .hov::before {
+        content: url(https://firebasestorage.googleapis.com/v0/b/project-01-a1213.appspot.com/o/images%2Ferror.png?alt=media&token=02df3acc-d9ee-47d4-a346-fc24f4b487b2);
+        display: flex;
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .result {
+        font-size: 14px;
+    }
+    .details {
+        display: table-cell;
+    }
+    .about-prod {
+        display: none;
+    }
+    .about-request {
+        width: 100%;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    th, td {
+        text-align: center;
+        font-size: 14px;
+    }
+    .wid {
+        width: 42px;
+    }
+    .modal-body .table {
+        margin: 0;
+    }
+    .modal320 {
+        width: 124px;
+    }
+}

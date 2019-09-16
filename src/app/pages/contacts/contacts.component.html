@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <div class="wrapper">
+        <div class="block">
+            <form #myForm="ngForm" autocomplete="off">
+                <input type="hidden" [(ngModel)]="who" name="who" [value]="getWho()">
+                <div class="form-group">
+                    <textarea id="area" cols="2" rows="2" class="form-control">Привіт, {{who}}</textarea>
+                </div>
+                <div class="form-group">
+                    <label>Тема:</label>
+                    <input [(ngModel)]="topic" name="topic" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Повідомлення:</label>
+                    <textarea [(ngModel)]="message" name="message" cols="2" rows="4" class="form-control"></textarea>
+                </div>
+                <button type="button" class="btn btn-success" (click)="addQuest()">Відправити</button>
+            </form>
+        </div>
+
+        <div class="block" *ngFor="let quest of quests | paginate: { itemsPerPage: 10, currentPage: p }; let i=index">
+            <div class="quest">
+                <div class="infoControl">
+                    <h2>{{quest.topic}}</h2>
+                    <div class="date">
+                        <p class="afterClock"> Post by {{quest.who}},
+                            "{{quest.date | date:'EE, MMM-dd-yyyy, hh:mm:ss a'}}"</p>
+                        <!--.toISOString()-->
+                    </div>
+                    <button type="button" class="btn btn-danger marg size" data-toggle="modal" data-target="#editModal"
+                        (click)="editQuest(quest)" *ngIf="quest.who===who || who==='Admin Adminovich'">Змінити</button>
+                    <button type="button" class="btn btn-primary size" (click)="deleteQuest(quest)"
+                        *ngIf="quest.who===who || who==='Admin Adminovich'">Видалити</button>
+                </div>
+                <div class="messag">{{quest.message}}</div>
+            </div>
+        </div>
+        <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="editModalLabel">Changes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Тема:</label>
+                            <input type="text" class="form-control" [(ngModel)]="editTopic" name="editTopic">
+                        </div>
+                        <div class="form-group">
+                            <label>Повідомлення:</label>
+                            <textarea cols="2" rows="4" class="form-control" [(ngModel)]="editMessage"
+                                name="editMessage"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"
+                            (click)="editSaveChange()">Save
+                            changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paginator">
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+    </div>
+</div>

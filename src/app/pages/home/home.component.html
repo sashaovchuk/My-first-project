@@ -1,0 +1,110 @@
+<header class="header">
+    <ngx-hm-carousel [(ngModel)]="ind" [autoplay-speed]="spd" [autoplay]="autoplay" [autoplay-direction]="direction"
+        [infinite]="infinite" [between-delay]="2000" [data]="avatars" [aniTime]="200" class="carousel text-accent">
+
+        <section ngx-hm-carousel-container class="content">
+            <article class="item cursor-pointer fade_animation" ngx-hm-carousel-item
+                *ngFor="let avatar of avatars; let i = index" [ngClass]="{'visible': ind===i}">
+                <img [src]="avatar.url" alt="image slide" style="display: block; width: 100%;">
+            </article>
+            <ng-template #infiniteContainer></ng-template>
+        </section>
+
+        <ng-template #carouselContent let-avatar let-i="index">
+            <article class="item cursor-pointer fade_animation" [ngClass]="{'visible': ind===i}">
+                <img [src]="avatar.url" alt="image slide" style="display: block; width: 100%;">
+            </article>
+        </ng-template>
+
+        <ng-template #carouselPrev>
+            <div class="click-area">
+                <i class="material-icons">keyboard_arrow_left</i>
+            </div>
+        </ng-template>
+        <ng-template #carouselNext>
+            <div class="click-area">
+                <i class="material-icons">keyboard_arrow_right</i>
+            </div>
+        </ng-template>
+
+        <ng-template #carouselDot let-model>
+            <div class="ball bg-accent" [class.visible]="model.index === model.currentIndex"></div>
+        </ng-template>
+
+    </ngx-hm-carousel>
+</header>
+<main class="main">
+    <div class="wrap">
+        <form #myForm="ngForm" autocomplete="off" (submit)="onSubscribe(myForm)">
+            <h3>Не знайшли те, що шукали?</h3>
+            <p>1 раз в 10 днів будемо відправляти Вам речі з нового надходження.</p>
+            <div class="form-group">
+                <input type="hidden" #id="ngModel" name="id" [(ngModel)]="subscribersService.formDatas.id"
+                    class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="FullName">Ваше повне ім'я</label>
+                <input #fullName="ngModel" name="fullName" [(ngModel)]="subscribersService.formDatas.fullName"
+                    type="text" class="form-control" id="FullName" placeholder="Ваше повне ім'я тут.." required>
+                <div *ngIf="fullName.invalid && fullName.touched" class="validation-error">Будь ласка введіть Ваше ім'я
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Введіть Ваш Email</label>
+                <input #email="ngModel" pattern="^[a-zA-z0-9_.+-]+@[a-zA-z0-9-]+\.[a-zA-z0-9-.]+$" name="email"
+                    [(ngModel)]="subscribersService.formDatas.email" type="email" class="form-control" id="email"
+                    placeholder="ivan-ivanov@gmail.com" required>
+                <div *ngIf="email.errors?.required && email.touched" class="validation-error">Будь ласка введіть Ваш
+                    еmail</div>
+                <div *ngIf="email.errors?.pattern && email.touched" class="validation-error">Email введений не коректно
+                </div>
+            </div>
+            <div class="form-group mt-2">
+                <button type="submit" [disabled]="myForm.invalid" class="btn btn-block btn-info">Підписатися на
+                    новинки</button>
+            </div>
+            <br>
+            <hr>
+            <h3><label for="fitting">Ви хочете, щоб ми вибрали потрібний вам стиль?</label></h3>
+            <div class="form-group mt-2">
+                <button type="submit" id="fitting" class="btn btn-block btn-info">Записатися на примірку</button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer class="foot">
+    <h3>Новинки:</h3>
+    <div class="center">
+        <ngx-hm-carousel [align]="left" [(ngModel)]="index" [autoplay-speed]="speed"
+            (ngModelChange)="indexChanged($event)" [autoplay]="autoplay" [autoplay-direction]="direction"
+            [infinite]="infinite" [between-delay]="0" [data]="adminProducts" [aniTime]="0" [swipe-velocity]="0"
+            class="carousel text-accent" show-num="3" [scroll-num]="3">
+            <section ngx-hm-carousel-container class="content">
+                <article class="item cursor-pointer visible_important decor" ngx-hm-carousel-item
+                    *ngFor="let avatar of adminProducts; let i = index">
+                    <img [src]="avatar.image" alt="image slide" [routerLink]="[ '/products', avatar.id ]" fragment="3"
+                        class="imga">
+                    <h4 [routerLink]="[ '/products', avatar.id ]" fragment="3">{{avatar.brand.name}} {{avatar.model}}
+                    </h4>
+                    <p class="categ" [routerLink]="['/categories/sub-categories']" fragment="{{avatar.category.name}}">
+                        {{avatar.category.name}}</p>
+                    <h5>{{avatar.price | currencys}}</h5>
+                </article>
+                <ng-template #infiniteContainer></ng-template>
+            </section>
+            <ng-template #carouselContent let-avatar let-i="index">
+                <article class="item cursor-pointer visible_important"></article>
+            </ng-template>
+            <ng-template #carouselPrev>
+                <div class="click-area left">
+                    <i class="material-icons">keyboard_arrow_left</i>
+                </div>
+            </ng-template>
+            <ng-template #carouselNext>
+                <div class="click-area right">
+                    <i class="material-icons">keyboard_arrow_right</i>
+                </div>
+            </ng-template>
+        </ngx-hm-carousel>
+    </div>
+</footer>
